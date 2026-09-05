@@ -299,3 +299,113 @@ footer {
     }
 
 }
+
+/* ========================================
+   Year / Semester Pages
+======================================== */
+
+.page-header {
+    padding: 60px 0 45px;
+    background: #f5f7fb;
+    text-align: center;
+}
+
+.page-header h1 {
+    margin: 20px 0 10px;
+    font-size: 2.5rem;
+}
+
+.page-header p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 1.7;
+}
+
+.back-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.semester-section {
+    padding: 50px 0 20px;
+}
+
+.semester-section h2 {
+    margin-bottom: 8px;
+    font-size: 2rem;
+}
+
+.section-description {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.semester-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.semester-card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    position: relative;
+
+    padding: 25px;
+
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+
+    text-decoration: none;
+    color: inherit;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.semester-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.semester-icon {
+    min-width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #f1f5f9;
+    border-radius: 12px;
+
+    font-size: 1.7rem;
+}
+
+.semester-card h3 {
+    margin: 0 0 7px;
+    font-size: 1.15rem;
+}
+
+.semester-card p {
+    margin: 0;
+
+    color: #666;
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+.card-arrow {
+    margin-left: auto;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
