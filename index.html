@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>BScIT Digital Library</title>
 
     <link rel="stylesheet" href="style.css">
@@ -8,79 +12,218 @@
 
 <body>
 
-<header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
 
-    <h1>📚 BScIT Digital Library</h1>
+        <div class="logo">
+            📚 BScIT Digital Library
+        </div>
 
-    <input
-        type="text"
-        id="searchInput"
-        placeholder="Search subjects..."
-    >
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#years">Library</a>
+            <a href="#about">About</a>
+        </div>
 
-</header>
+    </nav>
 
-<main>
-    <section>
-        <h2>TYIT</h2>
-        <div class="subject-card">
-            <h3>Android Practical</h3>
-            <ul>
-                <li>
-                    <a href="#">
-                        📘 Textbooks
-                    </a>
-                </li>
 
-                <li>
-                    <a href="#">
-                        📝 Notes
-                    </a>
-                </li>
+    <!-- Hero Section -->
+    <header class="hero">
 
-                <li>
-                    <a href="#">
-                        🎥 Videos
-                    </a>
-                </li>
+        <p class="welcome">WELCOME TO</p>
 
-                <li>
-                    <a href="#">
-                        🌐 External Resources
-                    </a>
-                </li>
+        <h1>BScIT Digital Library</h1>
 
-            </ul>
+        <p class="subtitle">
+            Textbooks, reference books, notes and online
+            learning resources for BScIT students.
+        </p>
+
+        <!-- Search -->
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="🔍 Search subjects or resources..."
+            >
 
         </div>
 
-        <div class="subject-card">
+    </header>
 
-            <h3>.NET Core and Progressive Web Applications</h3>
 
-            <ul>
+    <!-- Academic Years -->
+    <main>
 
-                <li>
-                    <a href="#">
-                        📘 Textbooks
-                    </a>
-                </li>
+        <section id="years" class="library-section">
 
-                <li>
-                    <a href="#">
-                        📝 Notes
-                    </a>
-                </li>
+            <h2>Browse Library</h2>
 
-            </ul>
+            <p class="section-description">
+                Select your academic year to explore subject resources.
+            </p>
 
-        </div>
 
-    </section>
+            <div class="year-container">
 
-</main>
 
-<script src="script.js"></script>
+                <!-- FYIT -->
+                <a href="fyit.html" class="year-card">
+
+                    <div class="year-icon">
+                        📘
+                    </div>
+
+                    <h3>FYIT</h3>
+
+                    <p>
+                        First Year Information Technology
+                    </p>
+
+                    <span>
+                        Semester 1 & 2 →
+                    </span>
+
+                </a>
+
+
+                <!-- SYIT -->
+                <a href="syit.html" class="year-card">
+
+                    <div class="year-icon">
+                        📗
+                    </div>
+
+                    <h3>SYIT</h3>
+
+                    <p>
+                        Second Year Information Technology
+                    </p>
+
+                    <span>
+                        Semester 3 & 4 →
+                    </span>
+
+                </a>
+
+
+                <!-- TYIT -->
+                <a href="tyit.html" class="year-card">
+
+                    <div class="year-icon">
+                        📕
+                    </div>
+
+                    <h3>TYIT</h3>
+
+                    <p>
+                        Third Year Information Technology
+                    </p>
+
+                    <span>
+                        Semester 5 & 6 →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Resource Types -->
+        <section class="resources-section">
+
+            <h2>What You'll Find Here</h2>
+
+            <div class="resource-container">
+
+                <div class="resource-card">
+                    <div>📘</div>
+                    <h3>Textbooks</h3>
+                    <p>
+                        Recommended textbooks for each subject.
+                    </p>
+                </div>
+
+
+                <div class="resource-card">
+                    <div>📚</div>
+                    <h3>Reference Books</h3>
+                    <p>
+                        Additional books for deeper study.
+                    </p>
+                </div>
+
+
+                <div class="resource-card">
+                    <div>📝</div>
+                    <h3>Notes</h3>
+                    <p>
+                        Study notes and useful academic material.
+                    </p>
+                </div>
+
+
+                <div class="resource-card">
+                    <div>🎥</div>
+                    <h3>Video Lectures</h3>
+                    <p>
+                        Useful lectures and courses available online.
+                    </p>
+                </div>
+
+
+                <div class="resource-card">
+                    <div>🌐</div>
+                    <h3>Online Resources</h3>
+                    <p>
+                        Freely available educational resources.
+                    </p>
+                </div>
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="about-section">
+
+            <h2>About the Library</h2>
+
+            <p>
+                The BScIT Digital Library is a centralized collection
+                of academic resources designed to help students access
+                textbooks, reference books, notes and online learning
+                materials throughout the BScIT programme.
+            </p>
+
+            <p>
+                Resources may be hosted on cloud storage or linked from
+                freely available educational websites.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 BScIT Digital Library
+        </p>
+
+        <p>
+            Academic Resource Collection
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
