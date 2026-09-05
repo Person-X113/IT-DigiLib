@@ -1,0 +1,101 @@
+{
+  "FYIT": {
+    "Semester 1": [
+      "Programming with C",
+      "Database Management Systems",
+      "Practical I - Programming with C and Database Management System",
+      "Combinational and Sequential Design",
+      "Office Tools for Data Management",
+      "Fundamentals of Telecommunication Systems",
+      "Introduction to Communication Skills in English I",
+      "Introduction to Commerce",
+      "Marketing Mix - I",
+      "Environmental Management & Sustainable Development - I",
+      "Indian Knowledge System",
+      "Introduction to National Service Scheme",
+      "Extension Work DLLE",
+      "Introduction to Sports, Physical Literacy, Health and Fitness and Yoga"
+    ],
+    "Semester 2": [
+      "OOPs with C++ - 02",
+      "Web Designing - 02",
+      "Practical II - Object Oriented Programming using C++ Practical",
+      "VSC: Assembly Language Programming - 02",
+      "Web Programming",
+      "PL/SQL Practical",
+      "Elementary Statistics",
+      "Hindi",
+      "Environmental Management & Sustainable Development - II",
+      "Marketing Mix - II",
+      "Principles and Practices of Management",
+      "Foundation and Exploration of Performing and Fine Arts",
+      "Sports Co-Curricular Vertical - 6",
+      "DLLE - Extension Work",
+      "National Service Scheme"
+    ]
+  },
+
+  "SYIT": {
+    "Semester 3": [
+      "Python Programming",
+      "Data Structures",
+      "Operating System",
+      "Major Practical 3 - Python & Data Structures",
+      "Applied Mathematics",
+      "Operations Research - I",
+      "Practical based on Operations Research - I",
+      "Fintech Start up",
+      "Data Analytics Tools",
+      "Introduction to Big Data",
+      "Hindi",
+      "CC: Cultural - Indian Theatre: Classical Roots and Contemporary Expressions",
+      "CC: Sports - Introduction to Sports Training & Tests and Measurement",
+      "CC: NSS - Study of Indian Social Reformers",
+      "CC: DLLE - Extension Work"
+    ],
+
+    "Semester 4": [
+      "Core Java",
+      "Software Engineering",
+      "Computer Networks",
+      "Major Practical 4 - Core Java & Computer Networks",
+      "Computer Graphics",
+      "Mobile Programming",
+      "Operations Research - II",
+      "Practical based on Operations Research - II",
+      "Introduction to Artificial Intelligence",
+      "Introduction to IT Service Management",
+      "Introduction to Communication Skills in English II",
+      "CC: Integrated Theatre Production: Stage Craft, Costume, Music and Technology",
+      "CC: Advanced Sports Training and Performance Evaluation",
+      "CC: NSS - Youth and Disaster Management"
+    ]
+  },
+
+  "TYIT": {
+    "Semester 5": [
+      ".NET Core and Progressive Application",
+      ".NET Core and Progressive Applications Practical",
+      "Artificial Intelligence",
+      "Artificial Intelligence Application Development and Jira",
+      "Indian Knowledge Systems in Information Technology",
+      "Enterprise Java Practical",
+      "Android Practical",
+      "Full Stack Development MERN Practical",
+      "Linux Administration Practical",
+      "Internet of Things Practical"
+    ],
+
+    "Semester 6": [
+      "Project Management",
+      "Computer Security",
+      "Data Analytics and Business Intelligence",
+      "Data Analytics and Business Intelligence and Computer Security in Practical",
+      "Cloud Computing and Testing Tools Practical",
+      "Geographical Information System Practical",
+      "Enterprise Network Practical",
+      "Cyber Law and Digital Policy",
+      "IT Service Management"
+    ]
+  }
+}
