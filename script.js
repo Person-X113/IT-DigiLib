@@ -7,12 +7,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("searchInput");
 
     if (searchInput) {
+
         const yearCards = document.querySelectorAll(".year-card");
 
         searchInput.addEventListener("input", () => {
+
             const searchText = searchInput.value.toLowerCase();
 
             yearCards.forEach(card => {
+
                 const text = card.textContent.toLowerCase();
 
                 if (text.includes(searchText)) {
@@ -20,26 +23,29 @@ document.addEventListener("DOMContentLoaded", () => {
                 } else {
                     card.style.display = "none";
                 }
+
             });
+
         });
+
     }
 
 
-    // Determine which year is being displayed
+    // Determine the current year
     let year = "";
 
     if (currentPage === "fyit.html") {
         year = "FYIT";
-    } 
+    }
     else if (currentPage === "syit.html") {
         year = "SYIT";
-    } 
+    }
     else if (currentPage === "tyit.html") {
         year = "TYIT";
     }
 
 
-    // Load semester and subject information
+    // Load subjects
     if (year) {
         loadYearData(year);
     }
@@ -54,7 +60,7 @@ async function loadYearData(year) {
         const response = await fetch("data/library.json");
 
         if (!response.ok) {
-            throw new Error("Unable to load library data.");
+            throw new Error("Could not load library.json");
         }
 
         const library = await response.json();
@@ -62,34 +68,45 @@ async function loadYearData(year) {
         const yearData = library[year];
 
         if (!yearData) {
-            console.error("Year not found:", year);
-            return;
+            throw new Error("Year not found: " + year);
         }
 
 
         Object.entries(yearData).forEach(([semester, subjects]) => {
 
-            const semesterContainer = document.querySelector(
-                `[data-semester="${semester}"]`
-            );
+            const semesterContainer =
+                document.querySelector(
+                    `[data-semester="${semester}"]`
+                );
 
             if (!semesterContainer) {
+                console.warn(
+                    "Semester container not found:",
+                    semester
+                );
                 return;
             }
+
 
             const subjectGrid =
-                semesterContainer.querySelector(".semester-card-grid");
+                semesterContainer.querySelector(
+                    ".semester-card-grid"
+                );
 
             if (!subjectGrid) {
+                console.warn(
+                    "Subject grid not found:",
+                    semester
+                );
                 return;
             }
 
 
-            // Clear existing placeholder cards
+            // Remove placeholder content
             subjectGrid.innerHTML = "";
 
 
-            // Create subject cards
+            // Create a card for every subject
             subjects.forEach(subject => {
 
                 const card = document.createElement("div");
@@ -98,10 +115,12 @@ async function loadYearData(year) {
 
                 card.innerHTML = `
                     <h3>${subject}</h3>
+
                     <p>
                         Books, notes, practicals, videos
                         and other learning resources.
                     </p>
+
                     <a href="#">
                         Explore Resources →
                     </a>
@@ -113,9 +132,14 @@ async function loadYearData(year) {
 
         });
 
-    } catch (error) {
+    }
 
-        console.error("Error loading library:", error);
+    catch (error) {
+
+        console.error(
+            "Error loading library data:",
+            error
+        );
 
     }
 
