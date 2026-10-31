@@ -86,17 +86,16 @@
   },
   
   "resources": {
-    
     "Programming with C": {
       "Textbooks": [
         {
-          "name": "C Programming Language – Brian W. Kernighan and Dennis M. Ritchie (2017)",
+          "name": "The C Programming Language – Brian W. Kernighan and Dennis M. Ritchie",
           "url": "https://www.cimat.mx/ciencia_para_jovenes/bachillerato/libros/%5BKernighan-Ritchie%5DThe_C_Programming_Language.pdf"
         }
       ],
-    
+      "Reference Books": [],
       "Notes": [],
-    
+      "Practical Resources": [],
       "Online Resources": [
         {
           "name": "Beej's Guide to C Programming",
@@ -115,6 +114,306 @@
           "url": "https://www.youtube.com/watch?v=xND0t1pr3KY"
         }
       ]
+    },
+  
+    "Database Management Systems": {
+      "Textbooks": [
+        {
+          "name": "Fundamentals of Database Systems – Ramez Elmasri and Shamkant Navathe (7th Edition, 2017)",
+          "url": "https://archive.org/details/fundamentalsofda0000elma_w5c8/page/n19/mode/2up"
+        },
+        {
+          "name": "Database Systems: Design, Implementation, and Management – Carlos Coronel, Steven Morris and Peter Rob",
+          "url": "https://www.mpm.ac.in/News/Ebook_mpm_sadmin82154738.pdf"
+        }
+      ],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "SQLBolt – Interactive SQL Tutorials",
+          "url": "https://sqlbolt.com/"
+        },
+        {
+          "name": "PostgreSQL Tutorial",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html"
+        }
+      ]
+    },
+  
+    "Practical I - Programming with C and Database Management System": {
+      "Textbooks": [
+        {
+          "name": "Fundamentals of Database Systems – Ramez Elmasri and Shamkant Navathe (7th Edition, 2017)",
+          "url": "https://archive.org/details/fundamentalsofda0000elma_w5c8/page/n19/mode/2up"
+        },
+        {
+          "name": "The C Programming Language – Brian W. Kernighan and Dennis M. Ritchie (2017)",
+          "url": "https://www.cimat.mx/ciencia_para_jovenes/bachillerato/libros/%5BKernighan-Ritchie%5DThe_C_Programming_Language.pdf"
+        }
+      ],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "Beej's Guide to C Programming",
+          "url": "https://beej.us/guide/bgc/"
+        },
+        {
+          "name": "The GNU C Reference Manual",
+          "url": "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+        }
+      ]
+    },
+  
+    "Combinational and Sequential Design": {
+      "Textbooks": [
+        {
+          "name": "Digital Electronics and Logic Design – N. G. Palan",
+          "url": "https://archive.org/details/digital-electronics-and-logic-design-by-n-g-palan/mode/2up"
+        }
+      ],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "Digital Circuits – All About Circuits",
+          "url": "https://www.allaboutcircuits.com/textbook/digital"
+        },
+        {
+          "name": "NPTEL – Digital Electronics Course",
+          "url": "https://nptel.ac.in/courses/108105132"
+        }
+      ]
+    },
+  
+    "Office Tools for Data Management": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "Quackit – Microsoft Access Tutorial",
+          "url": "https://www.quackit.com/microsoft_access/tutorial/"
+        },
+        {
+          "name": "TutorialsPoint – MS Access Tutorial",
+          "url": "https://www.tutorialspoint.com/ms_access/index.htm"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "Microsoft Support – Access Documentation",
+          "url": "https://support.microsoft.com/en-us/access/"
+        }
+      ]
+    },
+  
+    "Fundamentals of Telecommunication Systems": {
+      "Textbooks": [
+        {
+          "name": "Signals and Systems – Michael D. Adams",
+          "url": "https://www.ece.uvic.ca/~frodo/sigsysbook/"
+        }
+      ],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [
+        {
+          "name": "Signals and Systems Companion – MATLAB Examples",
+          "url": "https://github.com/mdadams/sigsysbook_companion"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "University of Victoria – Signals and Systems Lecture Slides",
+          "url": "https://www.ece.uvic.ca/~frodo/sigsysbook/downloads/lecture_slides_for_signals_and_systems-5.0.pdf"
+        }
+      ]
+    },
+  
+    "Introduction to Communication Skills in English I": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "Speaking Effectively: Developing Speaking Skills for Business English – Jeremy Comfort et al.",
+          "url": "https://openlibrary.org/books/OL7738625M/Speaking_Effectively"
+        },
+        {
+          "name": "English Vocabulary in Use – Michael McCarthy and Felicity O'Dell",
+          "url": "https://archive.org/details/basic-vocabulary-in-use/mode/2up"
+        },
+        {
+          "name": "English Vocabulary in Use – Advanced, 3rd Edition",
+          "url": "https://dl3.languagecentre.ir/vocabulary/English%20Vocabulary%20in%20Use%20Advanced%203rd%20Edition%20%5Bwww.languagecentre.ir%5D.pdf"
+        },
+        {
+          "name": "Grammar in Use: Intermediate – Raymond Murphy et al.",
+          "url": "https://uomus.edu.iq/img/lectures21/MUCLecture_2022_5217521.pdf"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "A Conversation About Household Appliances",
+          "url": "https://youtu.be/rAPl0fSborU"
+        },
+        {
+          "name": "Why Do We Dream? – Psychology Video",
+          "url": "https://youtu.be/2W85Dwxx218"
+        },
+        {
+          "name": "What Is a Social Media Influencer?",
+          "url": "https://youtu.be/39A3og7enz8"
+        },
+        {
+          "name": "The Secrets of Learning a New Language – TED Talk",
+          "url": "https://youtu.be/o_XVt5rdpFY"
+        },
+        {
+          "name": "If Cinderella Were a Guy – Expressing Opinions",
+          "url": "https://youtu.be/p4OyCNctKXg"
+        },
+        {
+          "name": "Where Did English Come From?",
+          "url": "https://youtu.be/YEaSxhcns7Y"
+        }
+      ]
+    },
+  
+    "Introduction to Commerce": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "A Course Book on Business Environment – Francis Cherunilam",
+          "url": "https://www.eiilmuniversity.co.in/downloads/Business-Environment.pdf"
+        },
+        {
+          "name": "Business Environment – Francis Cherunilam",
+          "url": "https://www.eiilmuniversity.co.in/downloads/Business-Environment.pdf"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": []
+    },
+  
+    "Marketing Mix - I": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "Marketing Management: Analysis, Planning, Implementation and Control – Philip Kotler",
+          "url": "https://ia800106.us.archive.org/10/items/in.ernet.dli.2015.117958/2015.117958.Marketing-Management--Analysis-Planning-Implementation-And-Controlninth-Edition-_text.pdf"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "Principles of Marketing – OpenStax Textbook",
+          "url": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-marketing_-_WEB.pdf"
+        },
+        {
+          "name": "Google Digital Garage – Digital Marketing Courses",
+          "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=7879-google-digital-garage"
+        },
+        {
+          "name": "HubSpot Academy – Marketing Courses",
+          "url": "https://academy.hubspot.com/courses/marketing"
+        }
+      ]
+    },
+  
+    "Environmental Management & Sustainable Development - I": {
+      "Textbooks": [
+        {
+          "name": "Encyclopedia of Indian Natural History – R. E. Hawkins",
+          "url": "https://www.bnhs.org/public/hornbill_pdf/1702544849.pdf"
+        }
+      ],
+      "Reference Books": [
+        {
+          "name": "Silent Spring – Rachel Carson (2002)",
+          "url": "https://archive.org/details/fp_Silent_Spring-Rachel_Carson-1962/mode/2up"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "Down To Earth – Centre for Science and Environment",
+          "url": "https://www.cseindia.org/down-to-earth"
+        },
+        {
+          "name": "United Nations – Sustainable Development Goals",
+          "url": "https://sdgs.un.org/goals"
+        },
+        {
+          "name": "Down To Earth – Environmental News",
+          "url": "https://www.downtoearth.org.in"
+        }
+      ]
+    },
+  
+    "Indian Knowledge System": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "A Concise History of Science in India – D. M. Bose, S. N. Sen and B. V. Subbarayappa",
+          "url": "https://archive.org/details/in.ernet.dli.2015.502083/mode/2up"
+        },
+        {
+          "name": "Positive Sciences of the Ancient Hindus – Brajendranath Seal",
+          "url": "https://archive.org/details/the-positive-sciences-of-the-ancient-hindus-brajendra-nath-seal/mode/2up"
+        },
+        {
+          "name": "History of Chemistry in Ancient India and Medieval India – P. Ray",
+          "url": "https://archive.org/details/cftri.7765historyofchemist0000pray/mode/2up"
+        },
+        {
+          "name": "Charaka Samhita: A Scientific Synopsis – P. Ray and H. N. Gupta",
+          "url": "https://archive.org/details/in.ernet.dli.2015.405881/mode/2up"
+        },
+        {
+          "name": "History of Sanskrit Literature – A. A. MacDonnell",
+          "url": "https://archive.org/details/historyofsanskri00macdrich/mode/2up"
+        },
+        {
+          "name": "History of Indian Literature, Volumes I, II and III – M. Winternitz",
+          "url": "https://archive.org/details/in.ernet.dli.2015.97551/mode/2up"
+        },
+        {
+          "name": "History of Sanskrit Literature, Volume I – S. N. Dasgupta and S. K. De",
+          "url": "https://archive.org/details/historyofsanskri033357mbp"
+        },
+        {
+          "name": "Cultural Heritage of India, Volumes I, II and III – Ramakrishna Mission",
+          "url": "https://archive.org/details/in.ernet.dli.2015.211435/mode/2up"
+        },
+        {
+          "name": "History and Culture of the Indian People, Volumes I, II and III – R. C. Majumdar and A. D. Pushalkar",
+          "url": "https://archive.org/details/classicalage03bhar/mode/2up"
+        },
+        {
+          "name": "History of Sanskrit Literature – A. B. Keith",
+          "url": "https://archive.org/details/in.gov.ignca.7000/mode/2up"
+        },
+        {
+          "name": "History of Sanskrit Literature – V. Varadachari",
+          "url": "https://archive.org/details/dli.bengal.10689.12701/mode/2up"
+        },
+        {
+          "name": "Indian Knowledge System: Bhartiya Gyan Parampara – N. M. Khandelwal and Pratap Sinh Chauhan",
+          "url": "https://archive.org/details/indian-knowledge-system-bhartiya-gyan-parampara-n-m-khandelwal-pratap-sinh-chauhan-1/mode/2up"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": []
     }
   }
 }
