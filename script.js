@@ -1,7 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    // Get the current page name
     const currentPage = window.location.pathname.split("/").pop();
 
     // Homepage search
@@ -16,29 +15,21 @@ document.addEventListener("DOMContentLoaded", () => {
             const searchText = searchInput.value.toLowerCase();
 
             yearCards.forEach(card => {
-
-                const text = card.textContent.toLowerCase();
-
-                card.style.display = text.includes(searchText) ? "" : "none";
-
+                card.style.display =
+                    card.textContent.toLowerCase().includes(searchText)
+                    ? "" : "none";
             });
 
         });
 
     }
 
-    // Determine the current year
+    // Determine current year
     let year = "";
 
-    if (currentPage === "fyit.html") {
-        year = "FYIT";
-    }
-    else if (currentPage === "syit.html") {
-        year = "SYIT";
-    }
-    else if (currentPage === "tyit.html") {
-        year = "TYIT";
-    }
+    if (currentPage === "fyit.html") year = "FYIT";
+    else if (currentPage === "syit.html") year = "SYIT";
+    else if (currentPage === "tyit.html") year = "TYIT";
 
     // Load subjects
     if (year) {
@@ -53,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-// Load subjects for each year
+// Load subjects for FYIT, SYIT and TYIT
 async function loadYearData(year) {
 
     try {
@@ -76,18 +67,12 @@ async function loadYearData(year) {
             const semesterContainer =
                 document.querySelector(`[data-semester="${semester}"]`);
 
-            if (!semesterContainer) {
-                console.warn("Semester container not found:", semester);
-                return;
-            }
+            if (!semesterContainer) return;
 
             const subjectGrid =
                 semesterContainer.querySelector(".semester-card-grid");
 
-            if (!subjectGrid) {
-                console.warn("Subject grid not found:", semester);
-                return;
-            }
+            if (!subjectGrid) return;
 
             subjectGrid.innerHTML = "";
 
@@ -95,6 +80,13 @@ async function loadYearData(year) {
 
                 const card = document.createElement("div");
                 card.className = "semester-card";
+
+                const heading = document.createElement("h3");
+                heading.textContent = subject;
+
+                const description = document.createElement("p");
+                description.textContent =
+                    "Books, notes, practicals and other learning resources.";
 
                 const link = document.createElement("a");
 
@@ -105,12 +97,10 @@ async function loadYearData(year) {
 
                 link.textContent = "Explore Resources →";
 
-                card.innerHTML = `
-                    <h3>${subject}</h3>
-                    <p>Books, notes, practicals and other learning resources.</p>
-                `;
-
+                card.appendChild(heading);
+                card.appendChild(description);
                 card.appendChild(link);
+
                 subjectGrid.appendChild(card);
 
             });
@@ -126,8 +116,7 @@ async function loadYearData(year) {
 }
 
 
-// Load the selected subject's information
-
+// Load resources for the selected subject
 async function loadSubjectData() {
 
     try {
@@ -157,26 +146,23 @@ async function loadSubjectData() {
         document.querySelectorAll("[data-category]").forEach(container => {
 
             const category = container.dataset.category;
+            const resources = subjectResources?.[category] || [];
 
             container.innerHTML = "";
 
-            const resources = subjectResources?.[category] || [];
-
             if (resources.length === 0) {
-
-                container.innerHTML = "<p>Resources will be added soon.</p>";
-
+                container.innerHTML =
+                    "<p>Resources will be added soon.</p>";
                 return;
             }
 
             resources.forEach(resource => {
 
                 const card = document.createElement("div");
-
                 card.className = "semester-card";
 
-                const title = document.createElement("h3");
-                title.textContent = resource.name;
+                const heading = document.createElement("h3");
+                heading.textContent = resource.name;
 
                 const link = document.createElement("a");
                 link.href = resource.url;
@@ -184,7 +170,7 @@ async function loadSubjectData() {
                 link.target = "_blank";
                 link.rel = "noopener noreferrer";
 
-                card.appendChild(title);
+                card.appendChild(heading);
                 card.appendChild(link);
 
                 container.appendChild(card);
@@ -196,9 +182,7 @@ async function loadSubjectData() {
     }
 
     catch (error) {
-
         console.error("Error loading subject resources:", error);
-
     }
 
 }
