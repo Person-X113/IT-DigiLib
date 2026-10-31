@@ -1219,6 +1219,307 @@
           "url": "https://www.youtube.com/watch?v=q3RZh1yaqxM"
         }
       ]
+    },
+    
+    ".NET Core and Progressive Application": {
+      "Textbooks": [
+        {
+          "name": "Beginning ASP.NET 4.5 in C# – Matthew MacDonald",
+          "url": "https://books.google.co.in/books?id=JalZGsmf9hwC&printsec=copyright#v=onepage&q&f=false"
+        }
+      ],
+      "Reference Books": [
+        {
+          "name": "C# 4 Unleashed",
+          "url": "https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/CSharp/Pearson-C.Sharp.4.0.Unleashed.2011.RETAiL.EBook.pdf"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Microsoft Learn – Learn C#",
+          "url": "https://dotnet.microsoft.com/en-us/learn/csharp"
+        },
+        {
+          "name": "Bro Code – C# Full Course",
+          "url": "https://www.youtube.com/watch?v=wxznTygnRfQ"
+        },
+        {
+          "name": "Programming with Mosh – C# Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY"
+        },
+        {
+          "name": "Programming with Mosh – C# .NET Tutorials",
+          "url": "https://www.youtube.com/playlist?list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
+        },
+        {
+          "name": "freeCodeCamp – Learn C# Programming: Full Course with Mini-Projects",
+          "url": "https://www.youtube.com/watch?v=YrtFtdTTfv0"
+        },
+        {
+          "name": "freeCodeCamp – ASP.NET Core Crash Course",
+          "url": "https://www.youtube.com/watch?v=BfEjDD8mWYg"
+        },
+        {
+          "name": "Coddy Tech – Learn C#",
+          "url": "http://coddy.tech/landing/csharp"
+        }
+      ]
+    },
+
+    ".NET Core and Progressive Applications Practical": {
+      "Reference Books": [
+        {
+          "name": "Professional ASP.NET MVC 5 – Jon Galloway, David Matson, Brad Wilson and K. Scott Allen",
+          "url": "https://github.com/AllenMattson/VBA-and-Excel-Books-and-PDFs/blob/master/Professional%20ASP.NET%20MVC%205%20-%20Galloway%2C%20Jon%2C%20Matson%2C%20David%2C%20Wilson%2C%20Brad%2C%20Allen%2C%20K.%20Scott.pdf"
+        }
+      ],
+      "Practical Resources": [
+        {
+          "name": "Sumit Tripathi – .NET Core and Progressive Web Application Practicals (TYBScIT)",
+          "url": "https://www.youtube.com/playlist?list=PLD8C8uX1ZoMU"
+        }
+      ],
+      
+      "Online Resources": [
+        {
+          "name": "Microsoft Learn – Learn C#",
+          "url": "https://dotnet.microsoft.com/en-us/learn/csharp"
+        },
+        {
+          "name": "Bro Code – C# Full Course",
+          "url": "https://www.youtube.com/watch?v=wxznTygnRfQ"
+        },
+        {
+          "name": "Programming with Mosh – C# Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY"
+        },
+        {
+          "name": "Programming with Mosh – C# .NET Tutorials",
+          "url": "https://www.youtube.com/playlist?list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
+        },
+        {
+          "name": "freeCodeCamp – Learn C# Programming: Full Course with Mini-Projects",
+          "url": "https://www.youtube.com/watch?v=YrtFtdTTfv0"
+        },
+        {
+          "name": "freeCodeCamp – ASP.NET Core Crash Course",
+          "url": "https://www.youtube.com/watch?v=BfEjDD8mWYg"
+        },
+        {
+          "name": "Coddy Tech – Learn C#",
+          "url": "http://coddy.tech/landing/csharp"
+        }
+      ]
+    },
+    
+    "Artificial Intelligence": {
+      "Online Resources": [
+        {
+          "name": "Foundations of Computational Agents – David L. Poole and Alan K. Mackworth (3rd Edition Slides)",
+          "url": "https://artint.info/3e/slides/index.html"
+        },
+        {
+          "name": "Gate Smashers – Artificial Intelligence Complete Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHGhOHV-nwb0HR5US5GFKFI"
+        },
+        {
+          "name": "Google – Machine Learning Crash Course",
+          "url": "https://developers.google.com/machine-learning/crash-course"
+        }
+      ]
+    },
+    
+    "Artificial Intelligence Application Development and Jira": {
+      "Reference Books": [
+        {
+          "name": "Foundations of Computational Agents – David L. Poole and Alan K. Mackworth (3rd Edition Slides)",
+          "url": "https://artint.info/3e/slides/index.html"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Atlassian – Jira Guides",
+          "url": "https://www.atlassian.com/software/jira/guides/getting-started/introduction"
+        },
+        {
+          "name": "The Official Scrum Guide",
+          "url": "https://scrumguides.org/"
+        },
+        {
+          "name": "Atlassian – Jira Documentation",
+          "url": "https://confluence.atlassian.com/jira"
+        },
+        {
+          "name": "Atlassian – Jira Software Cloud Support",
+          "url": "https://support.atlassian.com/jira-software-cloud/"
+        },
+        {
+          "name": "Atlassian – Jira Guides",
+          "url": "https://www.atlassian.com/software/jira/guides"
+        },
+        {
+          "name": "Jira Software Server 7.1 – User Documentation",
+          "url": "https://product-downloads.atlassian.com/software/jira/downloads/documentation/JIRASOFTWARESERVER071-290216.pdf"
+        },
+        {
+          "name": "Jira Project Management – Complete Beginners Guide",
+          "url": "https://www.youtube.com/playlist?list=PLhW3qG5bs-L-uhDuJ7_hB7RIp-jSn28e8"
+        }
+      ]
+    },
+    
+    "Indian Knowledge Systems in Information Technology": {
+      "Online Resources": [
+        {
+          "name": "Indian Knowledge System and Artificial Intelligence: Towards Ethical, Sustainable, and Human-Centric Innovation",
+          "url": "https://icert.org.in/wp-content/uploads/2026/03/232.-Indian-Knowledge-System-and-Artificial-Intelligence_towards-Ethical-Sustainable-and-Human-Centric-Innovation.pdf"
+        }
+      ]
+    },
+    
+    "Enterprise Java Practical": {
+      "Practical Resources": [
+        {
+          "name": "The Shikshak – TY BSc IT Semester 5 Enterprise Java Practicals",
+          "url": "https://www.youtube.com/playlist?list=PLG0jPn7yVt50e7jUgE7GAvazo65bvtSbA"
+        },
+        {
+          "name": "Abhay More – Enterprise Java Practicals",
+          "url": "https://www.youtube.com/playlist?list=PLf2Wj8X3RbBS8IbrmdbSTRNDKauvsVZsh"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Jakarta EE Tutorial",
+          "url": "https://jakarta.ee/learn/docs/jakartaee-tutorial/current/index.html"
+        },
+        {
+          "name": "Jakarta EE Learning Hub",
+          "url": "https://jakarta.ee/learn"
+        },
+        {
+          "name": "Jakarta EE Starter Guides",
+          "url": "https://jakarta.ee/learn/starter-guides/"
+        },
+        {
+          "name": "Spring Boot Documentation",
+          "url": "https://spring.io/projects/spring-boot"
+        },
+        {
+          "name": "Hibernate ORM Documentation",
+          "url": "https://hibernate.org/orm/documentation"
+        }
+      ]
+    },
+    
+    "Android Practical": {
+      "Textbooks": [
+        {
+          "name": "Professional Android – Reto Meier (4th Edition, 2018)",
+          "url": "https://yuliana.lecturer.pens.ac.id/Android/Buku/professional_android_4_application_development.pdf"
+        }
+      ],
+      "Practical Resources": [
+        {
+          "name": "Android Developers – Android Basics with Compose",
+          "url": "https://developer.android.com/courses/android-basics-compose/course"
+        },
+        {
+          "name": "Android Developers – Get Started",
+          "url": "https://developer.android.com/get-started"
+        },
+        {
+          "name": "Android Codelabs",
+          "url": "https://developer.android.com/get-started/codelabs"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Kotlin Documentation",
+          "url": "https://kotlinlang.org/docs/home.html"
+        }
+      ]
+    },
+    
+    "Full Stack development MERN Practical": {
+      "Practical Resources": [
+        {
+          "name": "MongoDB – MERN Stack Tutorial",
+          "url": "https://www.mongodb.com/resources/languages/mern-stack-tutorial"
+        },
+        {
+          "name": "MongoDB – React/MERN Quick Start",
+          "url": "https://www.mongodb.com/docs/drivers/node-frameworks/react"
+        },
+        {
+          "name": "freeCodeCamp – MERN Stack Tutorial with Deployment",
+          "url": "https://www.youtube.com/watch?v=O3BUHwfHf84"
+        },
+        {
+          "name": "Dave Gray – MERN Stack Full Tutorial and Project",
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Node.js – Learn",
+          "url": "https://nodejs.org/learn"
+        },
+        {
+          "name": "React – Learn",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "name": "Express.js Documentation",
+          "url": "https://expressjs.com"
+        }
+      ]
+    },
+    
+    "Linux Administration Practical": {
+      "Practical Resources": [
+        {
+          "name": "My CS – Linux System Administration Full Course",
+          "url": "https://www.youtube.com/watch?v=UCr04qIB7uc"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Coddy Tech – Learn Linux and the Command Line",
+          "url": "https://coddy.tech/landing/terminal"
+        }
+      ]
+    },
+    
+    "Internet of Things Practical": {
+      "Reference Books": [
+        {
+          "name": "Programming the Raspberry Pi: Getting Started with Python – Simon Monk (3rd Edition)",
+          "url": "https://archive.org/details/programmingraspb00monk"
+        },
+        {
+          "name": "Raspberry Pi Cookbook – Simon Monk (2nd Edition)",
+          "url": "https://archive.org/details/raspberrypicookb0000monk_x0t8"
+        },
+        {
+          "name": "Handbook of Fingerprint Recognition – Davide Maltoni et al. (2nd Edition)",
+          "url": "https://nguyenthihanh.wordpress.com/wp-content/uploads/2015/08/handbook-of-fingerprint-recognition.pdf"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Raspberry Pi Projects",
+          "url": "https://projects.raspberrypi.org/en/"
+        },
+        {
+          "name": "Raspberry Pi Documentation",
+          "url": "https://www.raspberrypi.com/documentation/"
+        },
+        {
+          "name": "Learn Raspberry Pi Programming with Python",
+          "url": "https://www.academia.edu/27845434/Learn_Raspberry_Pi_Programming_with_Python_Learn_Raspberry_Pi_Programming_with_Python"
+        }
+      ]
     }
   }
 }
