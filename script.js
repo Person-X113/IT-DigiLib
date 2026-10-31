@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
 
     // Get the current page name
@@ -18,18 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const text = card.textContent.toLowerCase();
 
-                if (text.includes(searchText)) {
-                    card.style.display = "";
-                } else {
-                    card.style.display = "none";
-                }
+                card.style.display = text.includes(searchText) ? "" : "none";
 
             });
 
         });
 
     }
-
 
     // Determine the current year
     let year = "";
@@ -44,15 +40,20 @@ document.addEventListener("DOMContentLoaded", () => {
         year = "TYIT";
     }
 
-
     // Load subjects
     if (year) {
         loadYearData(year);
     }
 
+    // Load subject resources
+    if (currentPage === "subject.html") {
+        loadSubjectData();
+    }
+
 });
 
 
+// Load subjects for each year
 async function loadYearData(year) {
 
     try {
@@ -64,68 +65,52 @@ async function loadYearData(year) {
         }
 
         const library = await response.json();
-
         const yearData = library[year];
 
         if (!yearData) {
             throw new Error("Year not found: " + year);
         }
 
-
         Object.entries(yearData).forEach(([semester, subjects]) => {
 
             const semesterContainer =
-                document.querySelector(
-                    `[data-semester="${semester}"]`
-                );
+                document.querySelector(`[data-semester="${semester}"]`);
 
             if (!semesterContainer) {
-                console.warn(
-                    "Semester container not found:",
-                    semester
-                );
+                console.warn("Semester container not found:", semester);
                 return;
             }
-
 
             const subjectGrid =
-                semesterContainer.querySelector(
-                    ".semester-card-grid"
-                );
+                semesterContainer.querySelector(".semester-card-grid");
 
             if (!subjectGrid) {
-                console.warn(
-                    "Subject grid not found:",
-                    semester
-                );
+                console.warn("Subject grid not found:", semester);
                 return;
             }
 
-
-            // Remove placeholder content
             subjectGrid.innerHTML = "";
 
-
-            // Create a card for every subject
             subjects.forEach(subject => {
 
                 const card = document.createElement("div");
-
                 card.className = "semester-card";
+
+                const link = document.createElement("a");
+
+                link.href =
+                    `subject.html?year=${encodeURIComponent(year)}` +
+                    `&semester=${encodeURIComponent(semester)}` +
+                    `&subject=${encodeURIComponent(subject)}`;
+
+                link.textContent = "Explore Resources →";
 
                 card.innerHTML = `
                     <h3>${subject}</h3>
-
-                    <p>
-                        Books, notes, practicals, videos
-                        and other learning resources.
-                    </p>
-
-                    <a href="#">
-                        Explore Resources →
-                    </a>
+                    <p>Books, notes, practicals and other learning resources.</p>
                 `;
 
+                card.appendChild(link);
                 subjectGrid.appendChild(card);
 
             });
@@ -135,12 +120,25 @@ async function loadYearData(year) {
     }
 
     catch (error) {
-
-        console.error(
-            "Error loading library data:",
-            error
-        );
-
+        console.error("Error loading library data:", error);
     }
+
+}
+
+
+// Load the selected subject's information
+async function loadSubjectData() {
+
+    const params = new URLSearchParams(window.location.search);
+
+    const year = params.get("year");
+    const semester = params.get("semester");
+    const subject = params.get("subject");
+
+    document.getElementById("subjectName").textContent =
+        subject || "Subject Not Found";
+
+    document.getElementById("subjectDetails").textContent =
+        `${year || ""} | ${semester || ""}`;
 
 }
