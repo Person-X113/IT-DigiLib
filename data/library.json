@@ -86,12 +86,43 @@
   },
   
   "resources": {
+    
     "Programming with C": {
-      "Textbooks": [],
+      "Textbooks": [
+        {
+          "name": "C Programming Language – Brian W. Kernighan and Dennis M. Ritchie (2017)",
+          "url": "https://www.cimat.mx/ciencia_para_jovenes/bachillerato/libros/%5BKernighan-Ritchie%5DThe_C_Programming_Language.pdf"
+        },
+        {
+          "name": "Let Us C – Yashvant Kanetkar (BPB Publications, 2008)",
+          "url": ""
+        }
+      ],
+    
       "Reference Books": [],
+    
       "Notes": [],
+    
       "Practical Resources": [],
-      "Online Resources": []
+    
+      "Online Resources": [
+        {
+          "name": "Beej's Guide to C Programming",
+          "url": "https://beej.us/guide/bgc/"
+        },
+        {
+          "name": "The GNU C Reference Manual",
+          "url": "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+        },
+        {
+          "name": "Coddy Tech – C Programming Course",
+          "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8"
+        },
+        {
+          "name": "Bro Code – C Programming Full Course",
+          "url": "https://www.youtube.com/watch?v=xND0t1pr3KY"
+        }
+      ]
     }
   }
 }
