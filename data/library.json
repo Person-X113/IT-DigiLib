@@ -11,10 +11,7 @@
       "Introduction to Commerce",
       "Marketing Mix - I",
       "Environmental Management & Sustainable Development - I",
-      "Indian Knowledge System",
-      "Introduction to National Service Scheme",
-      "Extension Work DLLE",
-      "Introduction to Sports, Physical Literacy, Health and Fitness and Yoga"
+      "Indian Knowledge System"
     ],
     "Semester 2": [
       "OOPs with C++ - 02",
@@ -27,11 +24,7 @@
       "Hindi",
       "Environmental Management & Sustainable Development - II",
       "Marketing Mix - II",
-      "Principles and Practices of Management",
-      "Foundation and Exploration of Performing and Fine Arts",
-      "Sports Co-Curricular Vertical - 6",
-      "DLLE - Extension Work",
-      "National Service Scheme"
+      "Principles and Practices of Management"
     ]
   },
 
@@ -47,11 +40,7 @@
       "Fintech Start up",
       "Data Analytics Tools",
       "Introduction to Big Data",
-      "Hindi",
-      "CC: Cultural - Indian Theatre: Classical Roots and Contemporary Expressions",
-      "CC: Sports - Introduction to Sports Training & Tests and Measurement",
-      "CC: NSS - Study of Indian Social Reformers",
-      "CC: DLLE - Extension Work"
+      "Hindi"
     ],
 
     "Semester 4": [
@@ -65,10 +54,7 @@
       "Practical based on Operations Research - II",
       "Introduction to Artificial Intelligence",
       "Introduction to IT Service Management",
-      "Introduction to Communication Skills in English II",
-      "CC: Integrated Theatre Production: Stage Craft, Costume, Music and Technology",
-      "CC: Advanced Sports Training and Performance Evaluation",
-      "CC: NSS - Youth and Disaster Management"
+      "Introduction to Communication Skills in English II"
     ]
   },
 
@@ -97,5 +83,15 @@
       "Cyber Law and Digital Policy",
       "IT Service Management"
     ]
+  }
+}
+,
+"resources": {
+  "Programming with C": {
+    "Textbooks": [],
+    "Reference Books": [],
+    "Notes": [],
+    "Practical Resources": [],
+    "Online Resources": []
   }
 }
