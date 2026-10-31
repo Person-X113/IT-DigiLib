@@ -117,23 +117,34 @@ async function loadSubjectData() {
 
         const subjectResources = library.resources?.[subject];
 
+        const resourceContainer =
+            document.getElementById("resourceContainer");
+
+        let hasResources = false;
+
         document.querySelectorAll("[data-category]").forEach(container => {
 
             const category = container.dataset.category;
             const resources = subjectResources?.[category] || [];
 
+            const section = container.closest(".semester-section");
+
             container.innerHTML = "";
 
+            // Hide categories without resources
             if (resources.length === 0) {
-                container.innerHTML =
-                    "<p>Resources will be added soon.</p>";
+                section.style.display = "none";
                 return;
             }
 
+            // Show categories containing resources
+            section.style.display = "";
+            hasResources = true;
+
             resources.forEach(resource => {
 
-                const card = document.createElement("div");
-                card.className = "semester-card";
+                const row = document.createElement("div");
+                row.className = "semester-card";
 
                 const heading = document.createElement("h3");
                 heading.textContent = resource.name;
@@ -144,14 +155,34 @@ async function loadSubjectData() {
                 link.target = "_blank";
                 link.rel = "noopener noreferrer";
 
-                card.appendChild(heading);
-                card.appendChild(link);
+                row.appendChild(heading);
+                row.appendChild(link);
 
-                container.appendChild(card);
+                container.appendChild(row);
 
             });
 
         });
+
+        // Display a message if the subject has no resources
+        let emptyMessage = document.getElementById("emptyMessage");
+
+        if (!hasResources) {
+
+            if (!emptyMessage) {
+                emptyMessage = document.createElement("p");
+                emptyMessage.id = "emptyMessage";
+                emptyMessage.textContent =
+                    "Resources for this subject will be added soon.";
+
+                emptyMessage.style.textAlign = "center";
+                emptyMessage.style.padding = "30px";
+                resourceContainer.appendChild(emptyMessage);
+            }
+
+        } else if (emptyMessage) {
+            emptyMessage.remove();
+        }
 
     }
 
@@ -160,3 +191,4 @@ async function loadSubjectData() {
     }
 
 }
+
