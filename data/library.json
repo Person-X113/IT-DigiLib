@@ -692,6 +692,203 @@
           "url": "https://ebooks.lpude.in/commerce/bcom/term_1/DCOM102_DMGT101_PRINCIPLES_AND_PRACTICES_OF_MANAGEMENT.pdf"
         }
       ]
+    },
+    "Python Programming": {
+      "Textbooks": [],
+      "Online Resources": [
+        {
+          "name": "Learn Python",
+          "url": "http://learnpython.org/"
+        },
+        {
+          "name": "Coddy Tech – Learn Python",
+          "url": "https://coddy.tech/landing/python"
+        },
+        {
+          "name": "Codecademy – Python Courses",
+          "url": "https://www.codecademy.com/catalog/language/python"
+        },
+        {
+          "name": "Mosh Hamdani – Python Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ"
+        },
+        {
+          "name": "Bro Code – Python Full Course for Free",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0"
+        },
+        {
+          "name": "freeCodeCamp – Learn Python Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        }
+      ]
+    },
+
+    "Data Structures": {
+      "Textbooks": [],
+      "Notes": [],
+      "Online Resources": [
+        {
+          "name": "Bro Code – Data Structures and Algorithms Full Course",
+          "url": "https://www.youtube.com/watch?v=CBYHwZcbD-s"
+        },
+        {
+          "name": "MIT OpenCourseWare – Introduction to Algorithms",
+          "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/"
+        },
+        {
+          "name": "MIT OpenCourseWare – Design and Analysis of Algorithms",
+          "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/"
+        }
+      ]
+    },
+
+    "Operating System": {
+      "Reference Books": [
+        {
+          "name": "Operating System Concepts – Abraham Silberschatz (8th Edition)",
+          "url": "https://www.mbit.edu.in/wp-content/uploads/2020/05/Operating_System_Concepts_8th_EditionA4.pdf"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Operating Systems: Three Easy Pieces",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/"
+        },
+        {
+          "name": "University of Wisconsin – CS 537: Introduction to Operating Systems",
+          "url": "https://pages.cs.wisc.edu/~shivaram/cs537-fa24/"
+        },
+        {
+          "name": "freeCodeCamp – Operating Systems Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=yK1uBHPdp30"
+        }
+      ]
+    },
+
+    "Major Practical 3 - Python & Data Structures": {
+      "Textbooks": [],
+      "Online Resources": [
+        {
+          "name": "Learn Python",
+          "url": "http://learnpython.org/"
+        },
+        {
+          "name": "Coddy Tech – Learn Python",
+          "url": "https://coddy.tech/landing/python"
+        },
+        {
+          "name": "Codecademy – Python Courses",
+          "url": "https://www.codecademy.com/catalog/language/python"
+        },
+        {
+          "name": "Mosh Hamdani – Python Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ"
+        },
+        {
+          "name": "Bro Code – Python Full Course for Free",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0"
+        },
+        {
+          "name": "freeCodeCamp – Learn Python Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        },
+        {
+          "name": "Bro Code – Data Structures and Algorithms Full Course",
+          "url": "https://www.youtube.com/watch?v=CBYHwZcbD-s"
+        },
+        {
+          "name": "MIT OpenCourseWare – Introduction to Algorithms",
+          "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/"
+        },
+        {
+          "name": "MIT OpenCourseWare – Design and Analysis of Algorithms",
+          "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/"
+        }
+      ]
+    },
+
+    "Applied Mathematics": {
+      "Reference Books": [
+        {
+          "name": "A Textbook of Applied Mathematics, Volume I – P. N. Wartikar and J. N. Wartikar",
+          "url": "https://archive.org/details/ATextBookOfAppliedMathematicsVolIBYP.N.WartikarAndJ.N.Wartikar/mode/2up"
+        },
+        {
+          "name": "Higher Engineering Mathematics – Dr. B. S. Grewal",
+          "url": "https://archive.org/details/higher-engineering-mathematics-bs-grewal/mode/2up"
+        }
+      ],
+      "Notes": []
+    },
+
+    "Operations Research - I": {
+      "Reference Books": [
+        {
+          "name": "Operations Research: Methods and Problems – Maurice Sasieni, Arthur Yaspan and Lawrence Friedman (1959)",
+          "url": "https://ia801506.us.archive.org/31/items/in.ernet.dli.2015.121720/2015.121720.Operation-Research-Methods-And-Problems.pdf"
+        },
+        {
+          "name": "Mathematical Models in Operations Research – J. K. Sharma (1989)",
+          "url": "https://www.amirajcollege.in/wp-content/uploads/2020/10/3151910-operations-research-theory-and-applications-by-j.-k.-sharma-z-lib.org_.pdf"
+        },
+        {
+          "name": "Principles of Operations Research with Applications to Management Decisions – Harvey M. Wagner (2nd Edition)",
+          "url": "https://ia802800.us.archive.org/1/items/in.ernet.dli.2015.132568/2015.132568.Principles-Of-Operations-Research-Second-Edition.pdf"
+        }
+      ]
+    },
+
+    "Fintech Start up": {
+      "Online Resources": [
+        {
+          "name": "INSART – Learn Fintech in One Video: Fintech 101",
+          "url": "https://www.youtube.com/watch?v=dIAhmN8dfUU"
+        },
+        {
+          "name": "answersQ – Best Fintech Course on Coursera: Learn Fintech in 30 Days",
+          "url": "https://www.youtube.com/watch?v=HjE4OoA2Vr8"
+        },
+        {
+          "name": "Sukhjinder Singh – How to Break Into Fintech in India",
+          "url": "https://www.youtube.com/watch?v=TGOiq53L2Ko"
+        },
+        {
+          "name": "Coursera – Fintech Startups in Emerging Markets Specialization",
+          "url": "https://www.coursera.org/specializations/fintech-startups-emerging-markets"
+        }
+      ]
+    },
+
+    "Data Analytics Tools": {
+      "Reference Books": [
+        {
+          "name": "Python for Data Analysis – Wes McKinney",
+          "url": "https://wesmckinney.com/book/numpy-basics"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Learn Skills Daily – Data Analysis with Python Full Course",
+          "url": "https://www.youtube.com/watch?v=bLDbzcHwxM4"
+        },
+        {
+          "name": "Luke Barousse – Python for Data Analytics Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=wUSDVGivd-8"
+        }
+      ]
+    },
+
+    "Introduction to Big Data": {
+      "Online Resources": [
+        {
+          "name": "Introduction to Big Data – Lovely Professional University",
+          "url": "https://www.lpude.in/SLMs/Master%20of%20Computer%20Applications/Sem_2/DECAP456_INTRODUCTION_TO_BIG_DATA.pdf"
+        },
+        {
+          "name": "Coursera – Introduction to Big Data",
+          "url": "https://www.coursera.org/learn/big-data-introduction"
+        }
+      ]
     }
   }
 }
