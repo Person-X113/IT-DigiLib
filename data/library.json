@@ -889,6 +889,336 @@
           "url": "https://www.coursera.org/learn/big-data-introduction"
         }
       ]
+    },
+        "Core Java": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "Java: The Complete Reference – Herbert Schildt (12th Edition, 2022)",
+          "url": "https://tinyurl.com/3tk8f9mv"
+        },
+        {
+          "name": "Core Java, Volume I: Fundamentals – Horstmann (9th Edition, 2013)",
+          "url": "https://ia801404.us.archive.org/25/items/CoreJava2Volume1ISBN/Core%20Java%202%2C%20Volume%201%20-%20ISBN.pdf"
+        },
+        {
+          "name": "Core Java, Volume II: Advanced Features – Gary Cornell and Horstmann (8th Edition, 2008)",
+          "url": "https://www.jre-training.com/MFI/Tools/Core%20Java%20Vol%20%2013%20-%20II.pdf"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "Bro Code – Java Full Course for Free",
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ"
+        },
+        {
+          "name": "Coddy Tech – Learn Java",
+          "url": "https://coddy.tech/landing/java"
+        }
+      ]
+    },
+
+    "Software Engineering": {
+      "Textbooks": [],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "The Official Scrum Guide",
+          "url": "https://scrumguides.org/"
+        },
+        {
+          "name": "MIT OpenCourseWare – Software Engineering Concepts",
+          "url": "https://ocw.mit.edu/courses/16-355j-software-engineering-concepts-fall-2005/"
+        }
+      ]
+    },
+
+    "Computer Networks": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "TCP/IP Protocol Suite – Behrouz A. Forouzan (4th Edition)",
+          "url": "https://vaibhav2501.wordpress.com/wp-content/uploads/2012/02/tcp_ip-protocol-suite-4th-ed-b-forouzan-mcgraw-hill-2010-bbs.pdf"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": []
+    },
+
+    "Major Practical 4 - Core Java & Computer Networks": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "Java: The Complete Reference – Herbert Schildt (12th Edition, 2022)",
+          "url": "https://tinyurl.com/3tk8f9mv"
+        },
+        {
+          "name": "Core Java, Volume I: Fundamentals – Horstmann (9th Edition, 2013)",
+          "url": "https://ia801404.us.archive.org/25/items/CoreJava2Volume1ISBN/Core%20Java%202%2C%20Volume%201%20-%20ISBN.pdf"
+        },
+        {
+          "name": "Core Java, Volume II: Advanced Features – Gary Cornell and Horstmann (8th Edition, 2008)",
+          "url": "https://www.jre-training.com/MFI/Tools/Core%20Java%20Vol%20%2013%20-%20II.pdf"
+        },
+        {
+          "name": "Cisco CCNA 200-301 Official Cert Guide",
+          "url": "https://xafterhoursx.wordpress.com/wp-content/uploads/2020/10/ccna-200-301-vol.-2.pdf"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "Breezy Codes – Basic Cisco Packet Tracer Tutorials",
+          "url": "https://www.youtube.com/@Breezy-Codes"
+        },
+        {
+          "name": "Bro Code – Java Full Course for Free",
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ"
+        },
+        {
+          "name": "Coddy Tech – Learn Java",
+          "url": "https://coddy.tech/landing/java"
+        }
+      ]
+    },
+
+    "Computer Graphics": {
+      "Textbooks": [
+        {
+          "name": "Introduction to Computer Graphics – David J. Eck",
+          "url": "https://oer.uinsyahada.ac.id/items/show/408"
+        }
+      ],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "Programming for Lovers – An Introduction to Graphics in Python",
+          "url": "https://programmingforlovers.com/chapter-3-building-a-self-replicating-cellular-automaton-with-top-down-programming/chapter-3-python-code-alongs/introduction-to-graphics/"
+        },
+        {
+          "name": "Johan Godinho – Python Graphics Using Tkinter for Beginners",
+          "url": "https://www.youtube.com/playlist?list=PLIbZb2AYMPrX6LPztAIJist8ZnYS2I6jP"
+        }
+      ]
+    },
+
+    "Mobile Programming": {
+      "Textbooks": [],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "Flutter – Official Documentation",
+          "url": "https://docs.flutter.dev/"
+        },
+        {
+          "name": "Flutter – Learning Path",
+          "url": "https://docs.flutter.dev/learn"
+        },
+        {
+          "name": "Flutter – Codelabs and Learning Resources",
+          "url": "https://docs.flutter.dev/reference/learning-resources"
+        },
+        {
+          "name": "Flutter Mapp – The Ultimate Flutter Tutorial for Beginners (2025)",
+          "url": "https://www.youtube.com/watch?v=3kaGC_DrUnw"
+        },
+        {
+          "name": "freeCodeCamp – Flutter Course for Beginners: 37-Hour Cross Platform App Development Tutorial",
+          "url": "https://www.youtube.com/watch?v=VPvVD8t02U8"
+        }
+      ]
+    },
+
+    "Operations Research - II": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "Mathematical Models in Operations Research – J. K. Sharma (1989)",
+          "url": "https://www.amirajcollege.in/wp-content/uploads/2020/10/3151910-operations-research-theory-and-applications-by-j.-k.-sharma-z-lib.org_.pdf"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": []
+    },
+
+    "Practical based on Operations Research - II": {
+      "Textbooks": [],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": []
+    },
+
+    "Introduction to Artificial Intelligence": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "A First Course in Artificial Intelligence – Deepak Khemani (2017)",
+          "url": "https://www.gniotips.in/pdf/ebook/2026/sem-4/a-first-course-in-artificial-intelligence-by-deepak-khemani.pdf"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": []
+    },
+
+    "Introduction to IT Service Management": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "ITIL Foundation: ITIL 4 Edition – Roman Jouravlev, Akshay Anand et al.",
+          "url": "https://www.mizekhedmat.com/wp-content/uploads/2022/07/ITILFoundation-ITIL4Edition.pdf"
+        },
+        {
+          "name": "ITIL 4: Create, Deliver and Support (CDS) – Claire Agutter",
+          "url": "https://open.spotify.com/album/5CBsGwmlSECXm8LlebWOv0"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": []
+    },
+
+    "Introduction to Communication Skills in English II": {
+      "Reference Books": [
+        {
+          "name": "Speaking Effectively: Developing Speaking Skills for Business English – Jeremy Comfort et al. (1994)",
+          "url": "https://archive.org/details/speakingeffectiv0000unse"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "A Rendezvous with Simi Garewal – Ratan Tata",
+          "url": "https://www.youtube.com/watch?v=ozetTgOHu78&t=510s"
+        },
+        {
+          "name": "A Rendezvous with Simi Garewal – Kiran Bedi",
+          "url": "https://youtu.be/vX2NyKvEAXQ"
+        },
+        {
+          "name": "In Conversation: Rajiv Mehrotra with J. R. D. Tata",
+          "url": "https://youtu.be/68otfg601HI"
+        },
+        {
+          "name": "The Tharoor Guide to Indian English – Shashi Tharoor",
+          "url": "https://youtu.be/NsyI9LIXbFM"
+        },
+        {
+          "name": "Dr. A. P. J. Abdul Kalam – Discovery, Invention and Innovation",
+          "url": "https://youtu.be/9CKCfiX3uO0"
+        },
+        {
+          "name": "Malala Yousafzai – Nobel Peace Prize Speech on Education (2014)",
+          "url": "https://youtu.be/c2DHzlkUI6s"
+        },
+        {
+          "name": "Kailash Satyarthi – Nobel Peace Prize Speech (2014)",
+          "url": "https://youtu.be/wt0LSCEuc_M"
+        },
+        {
+          "name": "Speech by Mr. Ratan Tata",
+          "url": "https://youtu.be/m7-tKX7aZXM"
+        },
+        {
+          "name": "I Have a Dream – Martin Luther King Jr.",
+          "url": "https://www.youtube.com/watch?v=vP4iY1TtS3s"
+        },
+        {
+          "name": "Emma Watson – Speech on Gender Equality",
+          "url": "https://youtu.be/nIwU-9ZTTJc"
+        },
+        {
+          "name": "Could Humans Live in Underwater Cities?",
+          "url": "https://youtu.be/GUGtU7Ii1yk"
+        },
+        {
+          "name": "A Conversation About Household Appliances",
+          "url": "https://youtu.be/rAPl0fSborU"
+        },
+        {
+          "name": "Why Do We Dream? – Psychology Video",
+          "url": "https://youtu.be/2W85Dwxx218"
+        },
+        {
+          "name": "Solar System 101",
+          "url": "https://youtu.be/libKVRa01L8"
+        },
+        {
+          "name": "How Apocalypses Paved the Way for Humans",
+          "url": "https://youtu.be/libKVRa01L8"
+        },
+        {
+          "name": "Why Bats Aren't as Scary as You Think",
+          "url": "https://youtu.be/D6e_qh3YRPs"
+        },
+        {
+          "name": "What Is a Social Media Influencer?",
+          "url": "https://youtu.be/39A3og7enz8"
+        },
+        {
+          "name": "The Secrets of Learning a New Language – TED Talk",
+          "url": "https://youtu.be/o_XVt5rdpFY"
+        },
+        {
+          "name": "If Cinderella Were a Guy – Expressing Opinions",
+          "url": "https://youtu.be/p4OyCNctKXg"
+        },
+        {
+          "name": "Partly Cloudy – Telling Stories Without Words",
+          "url": "https://youtu.be/ix13P9NqBjo"
+        },
+        {
+          "name": "Tree of Unity – Telling Stories Without Words",
+          "url": "https://youtu.be/sAo41Gyl6hY"
+        },
+        {
+          "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 1)",
+          "url": "https://youtu.be/oxf60BlR2Q4"
+        },
+        {
+          "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 2)",
+          "url": "https://youtu.be/ISX7rUOJOms"
+        },
+        {
+          "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 3)",
+          "url": "https://youtu.be/rrC_s0XPXKI"
+        },
+        {
+          "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 4)",
+          "url": "https://youtu.be/FUML3q1ncF0"
+        },
+        {
+          "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 5)",
+          "url": "https://youtu.be/3by_ninqRzg"
+        },
+        {
+          "name": "Where Did English Come From?",
+          "url": "https://youtu.be/YEaSxhcns7Y"
+        },
+        {
+          "name": "The Science of Skin Colour",
+          "url": "https://youtu.be/_r4c2NT4naQ"
+        },
+        {
+          "name": "The Science of Persuasion",
+          "url": "https://youtu.be/cFdCzN7RYbw"
+        },
+        {
+          "name": "The Happy Prince – Oscar Wilde, Animated Short Film (1974)",
+          "url": "https://www.youtube.com/watch?v=q3RZh1yaqxM"
+        }
+      ]
     }
   }
 }
