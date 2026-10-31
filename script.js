@@ -3,27 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const currentPage = window.location.pathname.split("/").pop();
 
-    // Homepage search
-    const searchInput = document.getElementById("searchInput");
-
-    if (searchInput) {
-
-        const yearCards = document.querySelectorAll(".year-card");
-
-        searchInput.addEventListener("input", () => {
-
-            const searchText = searchInput.value.toLowerCase();
-
-            yearCards.forEach(card => {
-                card.style.display =
-                    card.textContent.toLowerCase().includes(searchText)
-                    ? "" : "none";
-            });
-
-        });
-
-    }
-
     // Determine current year
     let year = "";
 
