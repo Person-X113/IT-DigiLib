@@ -83,15 +83,15 @@
       "Cyber Law and Digital Policy",
       "IT Service Management"
     ]
-  }
-}
-,
-"resources": {
-  "Programming with C": {
-    "Textbooks": [],
-    "Reference Books": [],
-    "Notes": [],
-    "Practical Resources": [],
-    "Online Resources": []
+  },
+  
+  "resources": {
+    "Programming with C": {
+      "Textbooks": [],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": []
+    }
   }
 }
