@@ -57,15 +57,11 @@ async function loadYearData(year) {
 
             subjects.forEach(subject => {
 
-                const card = document.createElement("div");
-                card.className = "semester-card";
+                const row = document.createElement("div");
+                row.className = "semester-card";
 
                 const heading = document.createElement("h3");
                 heading.textContent = subject;
-
-                const description = document.createElement("p");
-                description.textContent =
-                    "Books, notes, practicals and other learning resources.";
 
                 const link = document.createElement("a");
 
@@ -76,11 +72,10 @@ async function loadYearData(year) {
 
                 link.textContent = "Explore Resources →";
 
-                card.appendChild(heading);
-                card.appendChild(description);
-                card.appendChild(link);
+                row.appendChild(heading);
+                row.appendChild(link);
 
-                subjectGrid.appendChild(card);
+                subjectGrid.appendChild(row);
 
             });
 
