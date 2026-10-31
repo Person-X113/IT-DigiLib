@@ -1441,7 +1441,7 @@
       ]
     },
     
-    "Full Stack development MERN Practical": {
+    "Full Stack Development MERN Practical": {
       "Practical Resources": [
         {
           "name": "MongoDB – MERN Stack Tutorial",
@@ -1518,6 +1518,359 @@
         {
           "name": "Learn Raspberry Pi Programming with Python",
           "url": "https://www.academia.edu/27845434/Learn_Raspberry_Pi_Programming_with_Python_Learn_Raspberry_Pi_Programming_with_Python"
+        }
+      ]
+    },
+    
+    "Project Management": {
+      "Textbooks": [
+        {
+          "name": "Project Management – Adrienne Watt (2nd Edition)",
+          "url": "https://opentextbc.ca/projectmanagement/"
+        }
+      ],
+      "Practical Resources": [
+        {
+          "name": "GanttProject",
+          "url": "https://www.ganttproject.biz/"
+        },
+        {
+          "name": "Trello",
+          "url": "https://trello.com/"
+        },
+        {
+          "name": "ProjectLibre",
+          "url": "https://www.projectlibre.com/"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "OpenLearn – Project Management: The Start of the Project Journey",
+          "url": "https://www.open.edu/openlearn/money-business/project-management-the-start-the-project-journey/content-section-0"
+        },
+        {
+          "name": "Project Management Institute – Free Online Courses",
+          "url": "https://www.pmi.org/learning/free-online-courses"
+        },
+        {
+          "name": "Atlassian – Project Management Guide",
+          "url": "https://www.atlassian.com/work-management/project-management"
+        }
+      ]
+    },
+    
+    "Computer Security": {
+      "Practical Resources": [
+        {
+          "name": "PortSwigger – Web Security Academy",
+          "url": "https://portswigger.net/web-security"
+        },
+        {
+          "name": "OWASP – Top 10 Web Application Security Risks",
+          "url": "https://owasp.org/www-project-top-ten/"
+        },
+        {
+          "name": "CrypTool",
+          "url": "https://www.cryptool.org/"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "NIST – Cybersecurity Framework 2.0",
+          "url": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "name": "Professor Messer – CompTIA Security+",
+          "url": "https://www.youtube.com/@professormesser"
+        },
+        {
+          "name": "Computerphile",
+          "url": "https://www.youtube.com/@Computerphile"
+        }
+      ]
+    },
+    
+    "Data Analytics and Business Intelligence": {
+      "Textbooks": [
+        {
+          "name": "R for Data Science – Hadley Wickham, Mine Çetinkaya-Rundel and Garrett Grolemund (2nd Edition)",
+          "url": "https://r4ds.hadley.nz/"
+        },
+        {
+          "name": "OpenIntro Statistics",
+          "url": "https://www.openintro.org/book/os/"
+        }
+      ],
+      "Practical Resources": [
+        {
+          "name": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn"
+        },
+        {
+          "name": "Microsoft Power BI Learning",
+          "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi"
+        },
+        {
+          "name": "Tableau Learning",
+          "url": "https://www.tableau.com/learn"
+        },
+        {
+          "name": "Tableau Free Training Videos",
+          "url": "https://www.tableau.com/learn/training"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Google Analytics – Skillshop",
+          "url": "https://skillshop.withgoogle.com/"
+        },
+        {
+          "name": "Alex The Analyst – Data Analytics Tutorials",
+          "url": "https://www.youtube.com/@AlexTheAnalyst"
+        },
+        {
+          "name": "StatQuest",
+          "url": "https://www.youtube.com/@statquest"
+        }
+      ]
+    },
+    
+    "Data Analytics and Business Intelligence and Computer Security in Practical": {
+      "Textbooks": [
+        {
+          "name": "Python for Data Analysis – Wes McKinney (3rd Edition)",
+          "url": "https://wesmckinney.com/book/"
+        },
+        {
+          "name": "R for Data Science – 2nd Edition",
+          "url": "https://r4ds.hadley.nz/"
+        }
+      ],
+      "Practical Resources": [
+        {
+          "name": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn"
+        },
+        {
+          "name": "Google Colab",
+          "url": "https://colab.research.google.com/"
+        },
+        {
+          "name": "Microsoft Power BI Learning",
+          "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi"
+        },
+        {
+          "name": "Microsoft Excel Training",
+          "url": "https://support.microsoft.com/en-us/excel"
+        },
+        {
+          "name": "PortSwigger – Web Security Academy",
+          "url": "https://portswigger.net/web-security"
+        },
+        {
+          "name": "Cisco Networking Academy – Introduction to Cybersecurity",
+          "url": "https://www.netacad.com/courses/introduction-to-cybersecurity"
+        },
+        {
+          "name": "NIST – Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework"
+        }
+      ]
+    },
+    
+    "Cloud Computing and Testing Tools Practical": {
+      "Practical Resources": [
+        {
+          "name": "CloudSim – Official Website",
+          "url": "https://cloudbus.cis.unimelb.edu.au/cloudsim/"
+        },
+        {
+          "name": "CloudSim – GitHub Repository",
+          "url": "https://github.com/Cloudslab/cloudsim"
+        },
+        {
+          "name": "GitHub Skills",
+          "url": "https://skills.github.com/"
+        },
+        {
+          "name": "VMware Hands-on Labs",
+          "url": "https://labs.hol.vmware.com/"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "GitHub Documentation",
+          "url": "https://docs.github.com/en"
+        },
+        {
+          "name": "Cloud Computing – Neso Academy YouTube Search",
+          "url": "https://www.youtube.com/results?search_query=Neso+Academy+Cloud+Computing"
+        },
+        {
+          "name": "CloudSim Tutorials – YouTube Search",
+          "url": "https://www.youtube.com/results?search_query=CloudSim+simulation+tutorial"
+        }
+      ]
+    },
+    
+    "Geographical Information System Practical": {
+      "Practical Resources": [
+        {
+          "name": "QGIS Training Manual – Version 3.40",
+          "url": "https://docs.qgis.org/3.40/en/docs/training_manual/index.html"
+        },
+        {
+          "name": "Brown University – Introduction to QGIS",
+          "url": "https://libguides.brown.edu/gis_data_tutorials/intro_qgis"
+        },
+        {
+          "name": "QGIS Tutorials and Tips",
+          "url": "https://www.qgistutorials.com/en/"
+        },
+        {
+          "name": "Natural Earth – Free Map Datasets",
+          "url": "https://www.naturalearthdata.com/"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Official QGIS Documentation",
+          "url": "https://docs.qgis.org/"
+        },
+        {
+          "name": "QGIS Official YouTube Channel",
+          "url": "https://www.youtube.com/@QGIS"
+        },
+        {
+          "name": "QGIS Beginner Tutorials – YouTube Search",
+          "url": "https://www.youtube.com/results?search_query=QGIS+beginner+tutorial+complete+course"
+        }
+      ]
+    },
+    
+    "Enterprise Network Practical": {
+      "Practical Resources": [
+        {
+          "name": "Cisco Packet Tracer – Download and Learning Resources",
+          "url": "https://www.netacad.com/catalogs/learn/cisco-packet-tracer"
+        },
+        {
+          "name": "Cisco Networking Academy",
+          "url": "https://www.netacad.com/"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Cisco CCNP Enterprise – Official Learning Path",
+          "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html"
+        },
+        {
+          "name": "Cisco Learning Network",
+          "url": "https://learningnetwork.cisco.com/"
+        },
+        {
+          "name": "Cisco Networking Documentation",
+          "url": "https://www.cisco.com/c/en/us/support/index.html"
+        },
+        {
+          "name": "Jeremy's IT Lab",
+          "url": "https://www.youtube.com/@JeremysITLab"
+        },
+        {
+          "name": "Practical Networking",
+          "url": "https://www.youtube.com/@PracticalNetworking"
+        },
+        {
+          "name": "David Bombal – Networking Tutorials",
+          "url": "https://www.youtube.com/@davidbombal"
+        }
+      ]
+    },
+    
+    "Cyber Law and Digital Policy": {
+      "Reference Books": [
+        {
+          "name": "Information Technology Act, 2000 – India Code",
+          "url": "https://www.indiacode.nic.in/indiacode/handle/123456789/1999?locale=en"
+        },
+        {
+          "name": "Digital Personal Data Protection Act, 2023 – India Code",
+          "url": "https://www.indiacode.nic.in/indiacode/handle/123456789/22037?view_type=browse"
+        },
+        {
+          "name": "Digital Personal Data Protection Rules, 2025 – Press Information Bureau",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190655"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Ministry of Electronics and Information Technology (MeitY)",
+          "url": "https://www.meity.gov.in/"
+        },
+        {
+          "name": "CERT-In",
+          "url": "https://www.cert-in.org.in/"
+        },
+        {
+          "name": "CERT-In Cybersecurity Directions",
+          "url": "https://www.cert-in.org.in/Directions70B.jsp"
+        },
+        {
+          "name": "India Code – Official Legislation",
+          "url": "https://www.indiacode.nic.in/"
+        },
+        {
+          "name": "World Intellectual Property Organization – Intellectual Property",
+          "url": "https://www.wipo.int/about-ip/en/"
+        },
+        {
+          "name": "Indian Cyber Law – YouTube Search",
+          "url": "https://www.youtube.com/results?search_query=Indian+Cyber+Law+Information+Technology+Act+2000+explained"
+        },
+        {
+          "name": "Digital Personal Data Protection Act – YouTube Search",
+          "url": "https://www.youtube.com/results?search_query=DPDP+Act+2023+India+explained"
+        }
+      ]
+    },
+    
+    "IT Service Management": {
+      "Reference Books": [
+        {
+          "name": "PeopleCert – ITIL 4",
+          "url": "https://www.peoplecert.org/ITIL-4"
+        },
+        {
+          "name": "ITIL Official Website",
+          "url": "https://www.itil.com/"
+        }
+      ],
+      "Practical Resources": [
+        {
+          "name": "Atlassian – ITSM Documentation",
+          "url": "https://support.atlassian.com/jira-service-management-cloud/docs/itsm-project-basics/"
+        },
+        {
+          "name": "Atlassian – Jira Service Management",
+          "url": "https://www.atlassian.com/software/jira/service-management"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Atlassian – IT Service Management Guide",
+          "url": "https://www.atlassian.com/collections/service/guides/it-service-management"
+        },
+        {
+          "name": "Atlassian – Introduction to IT Service Management Course",
+          "url": "https://community.atlassian.com/learning/course/it-service-management"
+        },
+        {
+          "name": "ITIL 4 Foundation Tutorials – YouTube Search",
+          "url": "https://www.youtube.com/results?search_query=ITIL+4+Foundation+full+course"
+        },
+        {
+          "name": "IT Service Management Explained – YouTube Search",
+          "url": "https://www.youtube.com/results?search_query=IT+Service+Management+ITIL+explained"
         }
       ]
     }
