@@ -95,7 +95,6 @@
       ],
       "Reference Books": [],
       "Notes": [],
-      "Practical Resources": [],
       "Online Resources": [
         {
           "name": "Beej's Guide to C Programming",
@@ -175,9 +174,7 @@
           "url": "https://archive.org/details/digital-electronics-and-logic-design-by-n-g-palan/mode/2up"
         }
       ],
-      "Reference Books": [],
       "Notes": [],
-      "Practical Resources": [],
       "Online Resources": [
         {
           "name": "Digital Circuits – All About Circuits",
@@ -412,8 +409,289 @@
         }
       ],
       "Notes": [],
+    },
+        "OOPs with C++ - 02": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "Object Oriented Programming in C++ – E. Balagurusamy",
+          "url": "https://bcaofficial.wordpress.com/wp-content/uploads/2017/05/balaguruswamy-object-oriented-programming-with-c-fourth-edition.pdf"
+        }
+      ],
+      "Notes": [],
       "Practical Resources": [],
-      "Online Resources": []
+      "Online Resources": [
+        {
+          "name": "Learn C++",
+          "url": "https://www.learncpp.com/"
+        },
+        {
+          "name": "C++ Reference",
+          "url": "https://en.cppreference.com/"
+        },
+        {
+          "name": "Microsoft C++ Documentation",
+          "url": "https://learn.microsoft.com/en-us/cpp/?view=msvc-170"
+        },
+        {
+          "name": "Coddy Tech – C++ Online Course",
+          "url": "https://coddy.tech/landing/cpp"
+        },
+        {
+          "name": "Mosh Hamdani – C++ Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8"
+        }
+      ]
+    },
+    
+    "Web Designing - 02": {
+      "Textbooks": [],
+      "Reference Books": [],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "JSON Documentation – Introducing JSON",
+          "url": "https://www.json.org/json-en.html"
+        },
+        {
+          "name": "W3Schools – JavaScript JSON",
+          "url": "https://www.w3schools.com/js/js_json.asp"
+        },
+        {
+          "name": "freeCodeCamp – JSON for Beginners",
+          "url": "https://www.freecodecamp.org/news/what-is-json-a-json-file-example/"
+        },
+        {
+          "name": "Coddy Tech – HTML Course",
+          "url": "https://coddy.tech/landing/html"
+        },
+        {
+          "name": "Coddy Tech – JavaScript Course",
+          "url": "http://coddy.tech/landing/javascript"
+        },
+        {
+          "name": "Codecademy – HTML and CSS",
+          "url": "https://www.codecademy.com/catalog/language/html-css"
+        },
+        {
+          "name": "Programming with Mosh – HTML for Beginners",
+          "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+        },
+        {
+          "name": "Programming with Mosh – JavaScript for Beginners",
+          "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+        },
+        {
+          "name": "Programming with Mosh – The Complete Frontend Development Roadmap",
+          "url": "https://www.youtube.com/watch?v=Tef1e9FiSR0"
+        },
+        {
+          "name": "Bro Code – Learn CSS in 1 Hour",
+          "url": "https://www.youtube.com/watch?v=wRNinF7YQqQ"
+        },
+        {
+          "name": "Bro Code – HTML and CSS Full Course",
+          "url": "https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+        },
+        {
+          "name": "Apna College – HTML, CSS, JavaScript, Projects, Git and GitHub",
+          "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i"
+        },
+        {
+          "name": "Mosh Hamdani – C++ Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8"
+        }
+      ]
+    },
+    
+    "Practical II - Object Oriented Programming using C++ Practical": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "Object Oriented Programming in C++ – E. Balagurusamy",
+          "url": "https://bcaofficial.wordpress.com/wp-content/uploads/2017/05/balaguruswamy-object-oriented-programming-with-c-fourth-edition.pdf"
+        }
+      ],
+      "Notes": [],
+      "Practical Resources": [],
+      "Online Resources": [
+        {
+          "name": "W3Schools – C++ Tutorial",
+          "url": "https://www.w3schools.com/cpp/default.asp"
+        },
+        {
+          "name": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/en-US/"
+        },
+        {
+          "name": "JSON Documentation – Introducing JSON",
+          "url": "https://www.json.org/json-en.html"
+        },
+        {
+          "name": "W3Schools – JavaScript JSON",
+          "url": "https://www.w3schools.com/js/js_json.asp"
+        },
+        {
+          "name": "freeCodeCamp – JSON for Beginners",
+          "url": "https://www.freecodecamp.org/news/what-is-json-a-json-file-example/"
+        },
+        {
+          "name": "Learn C++",
+          "url": "https://www.learncpp.com/"
+        },
+        {
+          "name": "C++ Reference",
+          "url": "https://en.cppreference.com/"
+        },
+        {
+          "name": "Microsoft C++ Documentation",
+          "url": "https://learn.microsoft.com/en-us/cpp/?view=msvc-170"
+        },
+        {
+          "name": "Coddy Tech – HTML Course",
+          "url": "https://coddy.tech/landing/html"
+        },
+        {
+          "name": "Coddy Tech – JavaScript Course",
+          "url": "http://coddy.tech/landing/javascript"
+        },
+        {
+          "name": "Codecademy – HTML and CSS",
+          "url": "https://www.codecademy.com/catalog/language/html-css"
+        },
+        {
+          "name": "Coddy Tech – C++ Online Course",
+          "url": "https://coddy.tech/landing/cpp"
+        },
+        {
+          "name": "Programming with Mosh – HTML for Beginners",
+          "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+        },
+        {
+          "name": "Programming with Mosh – JavaScript for Beginners",
+          "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+        },
+        {
+          "name": "Programming with Mosh – The Complete Frontend Development Roadmap",
+          "url": "https://www.youtube.com/watch?v=Tef1e9FiSR0"
+        },
+        {
+          "name": "Bro Code – Learn CSS in 1 Hour",
+          "url": "https://www.youtube.com/watch?v=wRNinF7YQqQ"
+        },
+        {
+          "name": "Bro Code – HTML and CSS Full Course",
+          "url": "https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+        },
+        {
+          "name": "Apna College – HTML, CSS, JavaScript, Projects, Git and GitHub",
+          "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i"
+        }
+      ]
+    },
+    
+    "VSC: Assembly Language Programming - 02": {
+      "Textbooks": [
+        {
+          "name": "8080A/8085 Assembly Language Programming – Lance A. Leventhal (1978)",
+          "url": "https://archive.org/details/80808085assembly0000leve/mode/2up"
+        }
+      ],
+      "Reference Books": [
+        {
+          "name": "Microprocessors: Architecture, Programming and Applications with the 8085 (5th Edition, 2012)",
+          "url": "https://archive.org/details/microprocessorar00rame/mode/2up"
+        }
+      ],
+      "Notes": [],
+      "Online Resources": [
+        {
+          "name": "TutorialsPoint – 8085 Microprocessor Tutorial",
+          "url": "https://www.tutorialspoint.com/microprocessor/index.htm"
+        }
+      ]
+    },
+    
+    "Web Programming": {
+      "Textbooks": [],
+      "Reference Books": [],
+      "Notes": [],
+      "Online Resources": [
+        {
+          "name": "PHP Documentation",
+          "url": "https://www.php.net/docs.php"
+        },
+        {
+          "name": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/en-US/"
+        },
+        {
+          "name": "GeeksforGeeks – Web Development Technologies",
+          "url": "https://www.geeksforgeeks.org/web-tech/web-technology/"
+        }
+      ]
+    },
+    
+    "PL/SQL Practical": {
+      "Practical Resources": [
+        {
+          "name": "TutorialsPoint – PL/SQL Tutorial",
+          "url": "https://www.tutorialspoint.com/plsql/index.htm"
+        },
+        {
+          "name": "Oracle Dev Gym – Learning SQL and PL/SQL",
+          "url": "https://devgym.oracle.com/pls/apex/f?p=10001:20011::::20011"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "NIC IT Academy – Master Oracle PL/SQL in 30 Days or Less",
+          "url": "https://www.youtube.com/watch?v=9ic3KEH4Ah4"
+        },
+        {
+          "name": "uzit – PL/SQL Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=iY0akm4ejAY"
+        }
+      ]
+    },
+    
+    "Environmental Management & Sustainable Development - II": {
+      "Reference Books": [
+        {
+          "name": "A Handbook on International Environment Conventions and Programmes – Ministry of Environment, Forest and Climate Change (2019)",
+          "url": "https://moef.gov.in/wp-content/uploads/2020/02/convention-V-16-CURVE-web.pdf"
+        }
+      ],
+      "Online Resources": [
+        {
+          "name": "Central Pollution Control Board – Pollution Standards",
+          "url": "https://cpcb.nic.in/standards/"
+        },
+        {
+          "name": "India Code – Digital Repository of Central and State Acts",
+          "url": "https://www.indiacode.nic.in/"
+        }
+      ]
+    },
+    
+    "Marketing Mix - II": {
+      "Textbooks": [],
+      "Reference Books": [
+        {
+          "name": "Marketing Management: Concepts, Cases, Challenges and Trends – Philip Kotler",
+          "url": "https://library.uniq.edu.iq/storage/books/file/kotler_keller_-_marketing_management_14th_edition/1666787488kotler_keller_-_marketing_management_14th_edition.pdf"
+        }
+      ],
+    },
+    
+    "Principles and Practices of Management": {
+      "Textbooks": [
+        {
+          "name": "Principles and Practices of Management",
+          "url": "https://ebooks.lpude.in/commerce/bcom/term_1/DCOM102_DMGT101_PRINCIPLES_AND_PRACTICES_OF_MANAGEMENT.pdf"
+        }
+      ],
     }
   }
 }
