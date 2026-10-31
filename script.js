@@ -127,18 +127,78 @@ async function loadYearData(year) {
 
 
 // Load the selected subject's information
+
 async function loadSubjectData() {
 
-    const params = new URLSearchParams(window.location.search);
+    try {
 
-    const year = params.get("year");
-    const semester = params.get("semester");
-    const subject = params.get("subject");
+        const params = new URLSearchParams(window.location.search);
 
-    document.getElementById("subjectName").textContent =
-        subject || "Subject Not Found";
+        const year = params.get("year");
+        const semester = params.get("semester");
+        const subject = params.get("subject");
 
-    document.getElementById("subjectDetails").textContent =
-        `${year || ""} | ${semester || ""}`;
+        document.getElementById("subjectName").textContent =
+            subject || "Subject Not Found";
+
+        document.getElementById("subjectDetails").textContent =
+            `${year || ""} | ${semester || ""}`;
+
+        const response = await fetch("data/library.json");
+
+        if (!response.ok) {
+            throw new Error("Could not load library.json");
+        }
+
+        const library = await response.json();
+
+        const subjectResources = library.resources?.[subject];
+
+        document.querySelectorAll("[data-category]").forEach(container => {
+
+            const category = container.dataset.category;
+
+            container.innerHTML = "";
+
+            const resources = subjectResources?.[category] || [];
+
+            if (resources.length === 0) {
+
+                container.innerHTML = "<p>Resources will be added soon.</p>";
+
+                return;
+            }
+
+            resources.forEach(resource => {
+
+                const card = document.createElement("div");
+
+                card.className = "semester-card";
+
+                const title = document.createElement("h3");
+                title.textContent = resource.name;
+
+                const link = document.createElement("a");
+                link.href = resource.url;
+                link.textContent = "Open Resource →";
+                link.target = "_blank";
+                link.rel = "noopener noreferrer";
+
+                card.appendChild(title);
+                card.appendChild(link);
+
+                container.appendChild(card);
+
+            });
+
+        });
+
+    }
+
+    catch (error) {
+
+        console.error("Error loading subject resources:", error);
+
+    }
 
 }
