@@ -419,3 +419,129 @@ footer {
 
 }
 
+
+/* ========================================
+   Colour Theme
+======================================== */
+
+:root {
+    --primary: #4776A8;
+    --secondary: #2A9D8F;
+    --accent: #8875B8;
+    --highlight: #E69A72;
+
+    --blue-light: #EAF2FB;
+    --green-light: #E6F3EF;
+    --purple-light: #F0ECF8;
+    --peach-light: #FBF0E8;
+
+    --text-dark: #263746;
+}
+
+/* General background */
+
+body {
+    background: #F4F7FB;
+    color: var(--text-dark);
+}
+
+/* Homepage hero */
+
+.hero {
+    background: linear-gradient(
+        135deg,
+        #DCEBFA,
+        #EAE3F8
+    );
+}
+
+/* Year cards */
+
+.year-card:nth-child(1) {
+    background: var(--blue-light);
+    border-color: #C8DCF1;
+}
+
+.year-card:nth-child(2) {
+    background: var(--green-light);
+    border-color: #C9E6DC;
+}
+
+.year-card:nth-child(3) {
+    background: var(--purple-light);
+    border-color: #DCD2EF;
+}
+
+.year-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(50, 80, 120, 0.12);
+}
+
+/* Year and subject page headers */
+
+.page-header {
+    background: linear-gradient(
+        135deg,
+        #EAF2FB,
+        #F0ECF8
+    );
+}
+
+/* Semester headings */
+
+.semester-section h2 {
+    color: #315C83;
+    border-left: 5px solid var(--secondary);
+    padding-left: 14px;
+}
+
+/* Subject and resource lists */
+
+.semester-card {
+    border-left: 4px solid transparent;
+}
+
+.semester-card:nth-child(4n+1) {
+    border-left-color: var(--primary);
+}
+
+.semester-card:nth-child(4n+2) {
+    border-left-color: var(--secondary);
+}
+
+.semester-card:nth-child(4n+3) {
+    border-left-color: var(--accent);
+}
+
+.semester-card:nth-child(4n) {
+    border-left-color: var(--highlight);
+}
+
+.semester-card:hover {
+    background: #EAF2FB;
+}
+
+/* Resource links */
+
+.semester-card a {
+    color: #356DA5;
+}
+
+.semester-card a:hover {
+    color: #24476A;
+}
+
+/* Homepage section headings */
+
+.library-section h2,
+.resources-section h2,
+.about-section h2 {
+    color: #315C83;
+}
+
+/* Footer */
+
+footer {
+    background: #263B50;
+}
+
