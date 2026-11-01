@@ -122,6 +122,14 @@ async function loadSubjectData() {
 
         let hasResources = false;
 
+        const typeIcons = {
+            video: "▶️",
+            course: "🎓",
+            tutorial: "📖",
+            documentation: "📄",
+            website: "🌐"
+        };
+
         document.querySelectorAll("[data-category]").forEach(container => {
 
             const category = container.dataset.category;
@@ -141,25 +149,28 @@ async function loadSubjectData() {
             section.style.display = "";
             hasResources = true;
 
-            resources.forEach(resource => {
-
+              resources.forEach(resource => {
+    
                 const row = document.createElement("div");
                 row.className = "semester-card";
-
+            
                 const heading = document.createElement("h3");
-                heading.textContent = resource.name;
-
+            
+                const icon = typeIcons[resource.type] || "🔗";
+            
+                heading.textContent = `${icon} ${resource.name}`;
+            
                 const link = document.createElement("a");
                 link.href = resource.url;
                 link.textContent = "Open Resource →";
                 link.target = "_blank";
                 link.rel = "noopener noreferrer";
-
+            
                 row.appendChild(heading);
                 row.appendChild(link);
-
+            
                 container.appendChild(row);
-
+            
             });
 
         });
