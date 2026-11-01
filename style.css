@@ -540,8 +540,71 @@ body {
 }
 
 /* Footer */
-
 footer {
     background: #263B50;
 }
+
+/* ========================================
+   Cloud Storage Section
+======================================== */
+
+.cloud-storage {
+    width: 85%;
+    max-width: 1100px;
+    margin: 60px auto;
+}
+
+.cloud-card {
+    background: linear-gradient(135deg, #EAF2FB, #E6F3EF);
+    border: 1px solid #C8DCF1;
+    border-radius: 15px;
+    padding: 35px 25px;
+    text-align: center;
+}
+
+.cloud-card h2 {
+    color: #315C83;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cloud-card p {
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 12px;
+}
+
+.cloud-card span {
+    display: block;
+    color: #667788;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.cloud-button {
+    display: inline-block;
+    background: #4776A8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.cloud-button:hover {
+    background: #315C83;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .cloud-storage {
+        width: 92%;
+    }
+
+    .cloud-card h2 {
+        font-size: 23px;
+    }
+}
+
 
