@@ -26,7 +26,6 @@
       "Principles and Practices of Management"
     ]
   },
-
   "SYIT": {
     "Semester 3": [
       "Python Programming",
@@ -40,7 +39,6 @@
       "Data Analytics Tools",
       "Introduction to Big Data"
     ],
-
     "Semester 4": [
       "Core Java",
       "Software Engineering",
@@ -55,7 +53,6 @@
       "Introduction to Communication Skills in English II"
     ]
   },
-
   "TYIT": {
     "Semester 5": [
       ".NET Core and Progressive Application",
@@ -69,7 +66,6 @@
       "Linux Administration Practical",
       "Internet of Things Practical"
     ],
-
     "Semester 6": [
       "Project Management",
       "Computer Security",
@@ -82,7 +78,6 @@
       "IT Service Management"
     ]
   },
-  
   "resources": {
     "Programming with C": {
       "Textbooks": [
@@ -96,23 +91,26 @@
       "Online Resources": [
         {
           "name": "Beej's Guide to C Programming",
-          "url": "https://beej.us/guide/bgc/"
+          "url": "https://beej.us/guide/bgc/",
+          "type": "tutorial"
         },
         {
           "name": "The GNU C Reference Manual",
-          "url": "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+          "url": "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html",
+          "type": "documentation"
         },
         {
           "name": "Mosh Hamdani – C++ Tutorial for Beginners - Learn C++ in 1 Hour",
-          "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8"
+          "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8",
+          "type": "video"
         },
         {
           "name": "Bro Code – C Programming Full Course",
-          "url": "https://www.youtube.com/watch?v=xND0t1pr3KY"
+          "url": "https://www.youtube.com/watch?v=xND0t1pr3KY",
+          "type": "video"
         }
       ]
     },
-  
     "Database Management Systems": {
       "Textbooks": [
         {
@@ -130,15 +128,16 @@
       "Online Resources": [
         {
           "name": "SQLBolt – Interactive SQL Tutorials",
-          "url": "https://sqlbolt.com/"
+          "url": "https://sqlbolt.com/",
+          "type": "tutorial"
         },
         {
           "name": "PostgreSQL Tutorial",
-          "url": "https://www.postgresql.org/docs/current/tutorial.html"
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "type": "documentation"
         }
       ]
     },
-  
     "Practical I - Programming with C and Database Management System": {
       "Textbooks": [
         {
@@ -156,15 +155,16 @@
       "Online Resources": [
         {
           "name": "Beej's Guide to C Programming",
-          "url": "https://beej.us/guide/bgc/"
+          "url": "https://beej.us/guide/bgc/",
+          "type": "tutorial"
         },
         {
           "name": "The GNU C Reference Manual",
-          "url": "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+          "url": "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html",
+          "type": "documentation"
         }
       ]
     },
-  
     "Combinational and Sequential Design": {
       "Textbooks": [
         {
@@ -176,15 +176,16 @@
       "Online Resources": [
         {
           "name": "Digital Circuits – All About Circuits",
-          "url": "https://www.allaboutcircuits.com/textbook/digital"
+          "url": "https://www.allaboutcircuits.com/textbook/digital",
+          "type": "website"
         },
         {
           "name": "NPTEL – Digital Electronics Course",
-          "url": "https://nptel.ac.in/courses/108105132"
+          "url": "https://nptel.ac.in/courses/108105132",
+          "type": "course"
         }
       ]
     },
-  
     "Office Tools for Data Management": {
       "Textbooks": [],
       "Reference Books": [
@@ -202,11 +203,11 @@
       "Online Resources": [
         {
           "name": "Microsoft Support – Access Documentation",
-          "url": "https://support.microsoft.com/en-us/access/"
+          "url": "https://support.microsoft.com/en-us/access/",
+          "type": "documentation"
         }
       ]
     },
-  
     "Fundamentals of Telecommunication Systems": {
       "Textbooks": [
         {
@@ -225,11 +226,11 @@
       "Online Resources": [
         {
           "name": "University of Victoria – Signals and Systems Lecture Slides",
-          "url": "https://www.ece.uvic.ca/~frodo/sigsysbook/downloads/lecture_slides_for_signals_and_systems-5.0.pdf"
+          "url": "https://www.ece.uvic.ca/~frodo/sigsysbook/downloads/lecture_slides_for_signals_and_systems-5.0.pdf",
+          "type": "website"
         }
       ]
     },
-  
     "Introduction to Communication Skills in English I": {
       "Textbooks": [],
       "Reference Books": [
@@ -255,31 +256,36 @@
       "Online Resources": [
         {
           "name": "A Conversation About Household Appliances",
-          "url": "https://youtu.be/rAPl0fSborU"
+          "url": "https://youtu.be/rAPl0fSborU",
+          "type": "video"
         },
         {
           "name": "Why Do We Dream? – Psychology Video",
-          "url": "https://youtu.be/2W85Dwxx218"
+          "url": "https://youtu.be/2W85Dwxx218",
+          "type": "video"
         },
         {
           "name": "What Is a Social Media Influencer?",
-          "url": "https://youtu.be/39A3og7enz8"
+          "url": "https://youtu.be/39A3og7enz8",
+          "type": "video"
         },
         {
           "name": "The Secrets of Learning a New Language – TED Talk",
-          "url": "https://youtu.be/o_XVt5rdpFY"
+          "url": "https://youtu.be/o_XVt5rdpFY",
+          "type": "video"
         },
         {
           "name": "If Cinderella Were a Guy – Expressing Opinions",
-          "url": "https://youtu.be/p4OyCNctKXg"
+          "url": "https://youtu.be/p4OyCNctKXg",
+          "type": "video"
         },
         {
           "name": "Where Did English Come From?",
-          "url": "https://youtu.be/YEaSxhcns7Y"
+          "url": "https://youtu.be/YEaSxhcns7Y",
+          "type": "video"
         }
       ]
     },
-  
     "Introduction to Commerce": {
       "Textbooks": [],
       "Reference Books": [
@@ -296,7 +302,6 @@
       "Practical Resources": [],
       "Online Resources": []
     },
-  
     "Marketing Mix - I": {
       "Textbooks": [],
       "Reference Books": [
@@ -310,19 +315,21 @@
       "Online Resources": [
         {
           "name": "Principles of Marketing – OpenStax Textbook",
-          "url": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-marketing_-_WEB.pdf"
+          "url": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-marketing_-_WEB.pdf",
+          "type": "website"
         },
         {
           "name": "Google Digital Garage – Digital Marketing Courses",
-          "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=7879-google-digital-garage"
+          "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=7879-google-digital-garage",
+          "type": "course"
         },
         {
           "name": "HubSpot Academy – Marketing Courses",
-          "url": "https://academy.hubspot.com/courses/marketing"
+          "url": "https://academy.hubspot.com/courses/marketing",
+          "type": "course"
         }
       ]
     },
-  
     "Environmental Management & Sustainable Development - I": {
       "Textbooks": [
         {
@@ -341,19 +348,21 @@
       "Online Resources": [
         {
           "name": "Down To Earth – Centre for Science and Environment",
-          "url": "https://www.cseindia.org/down-to-earth"
+          "url": "https://www.cseindia.org/down-to-earth",
+          "type": "website"
         },
         {
           "name": "United Nations – Sustainable Development Goals",
-          "url": "https://sdgs.un.org/goals"
+          "url": "https://sdgs.un.org/goals",
+          "type": "website"
         },
         {
           "name": "Down To Earth – Environmental News",
-          "url": "https://www.downtoearth.org.in"
+          "url": "https://www.downtoearth.org.in",
+          "type": "website"
         }
       ]
     },
-  
     "Indian Knowledge System": {
       "Textbooks": [],
       "Reference Books": [
@@ -407,7 +416,6 @@
         }
       ]
     },
-    
     "OOPs with C++ - 02": {
       "Textbooks": [],
       "Reference Books": [
@@ -421,27 +429,31 @@
       "Online Resources": [
         {
           "name": "Learn C++",
-          "url": "https://www.learncpp.com/"
+          "url": "https://www.learncpp.com/",
+          "type": "tutorial"
         },
         {
           "name": "C++ Reference",
-          "url": "https://en.cppreference.com/"
+          "url": "https://en.cppreference.com/",
+          "type": "website"
         },
         {
           "name": "Microsoft C++ Documentation",
-          "url": "https://learn.microsoft.com/en-us/cpp/?view=msvc-170"
+          "url": "https://learn.microsoft.com/en-us/cpp/?view=msvc-170",
+          "type": "documentation"
         },
         {
           "name": "Coddy Tech – C++ Online Course",
-          "url": "https://coddy.tech/landing/cpp"
+          "url": "https://coddy.tech/landing/cpp",
+          "type": "course"
         },
         {
           "name": "Mosh Hamdani – C++ Tutorial for Beginners",
-          "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8"
+          "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8",
+          "type": "video"
         }
       ]
     },
-    
     "Web Designing - 02": {
       "Textbooks": [],
       "Reference Books": [],
@@ -450,59 +462,71 @@
       "Online Resources": [
         {
           "name": "JSON Documentation – Introducing JSON",
-          "url": "https://www.json.org/json-en.html"
+          "url": "https://www.json.org/json-en.html",
+          "type": "documentation"
         },
         {
           "name": "W3Schools – JavaScript JSON",
-          "url": "https://www.w3schools.com/js/js_json.asp"
+          "url": "https://www.w3schools.com/js/js_json.asp",
+          "type": "tutorial"
         },
         {
           "name": "freeCodeCamp – JSON for Beginners",
-          "url": "https://www.freecodecamp.org/news/what-is-json-a-json-file-example/"
+          "url": "https://www.freecodecamp.org/news/what-is-json-a-json-file-example/",
+          "type": "tutorial"
         },
         {
           "name": "Coddy Tech – HTML Course",
-          "url": "https://coddy.tech/landing/html"
+          "url": "https://coddy.tech/landing/html",
+          "type": "course"
         },
         {
           "name": "Coddy Tech – JavaScript Course",
-          "url": "http://coddy.tech/landing/javascript"
+          "url": "http://coddy.tech/landing/javascript",
+          "type": "course"
         },
         {
           "name": "Codecademy – HTML and CSS",
-          "url": "https://www.codecademy.com/catalog/language/html-css"
+          "url": "https://www.codecademy.com/catalog/language/html-css",
+          "type": "course"
         },
         {
           "name": "Programming with Mosh – HTML for Beginners",
-          "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+          "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+          "type": "video"
         },
         {
           "name": "Programming with Mosh – JavaScript for Beginners",
-          "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+          "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+          "type": "video"
         },
         {
           "name": "Programming with Mosh – The Complete Frontend Development Roadmap",
-          "url": "https://www.youtube.com/watch?v=Tef1e9FiSR0"
+          "url": "https://www.youtube.com/watch?v=Tef1e9FiSR0",
+          "type": "video"
         },
         {
           "name": "Bro Code – Learn CSS in 1 Hour",
-          "url": "https://www.youtube.com/watch?v=wRNinF7YQqQ"
+          "url": "https://www.youtube.com/watch?v=wRNinF7YQqQ",
+          "type": "video"
         },
         {
           "name": "Bro Code – HTML and CSS Full Course",
-          "url": "https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+          "url": "https://www.youtube.com/watch?v=HGTJBPNC-Gw",
+          "type": "video"
         },
         {
           "name": "Apna College – HTML, CSS, JavaScript, Projects, Git and GitHub",
-          "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i"
+          "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i",
+          "type": "video"
         },
         {
           "name": "Mosh Hamdani – C++ Tutorial for Beginners",
-          "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8"
+          "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8",
+          "type": "video"
         }
       ]
     },
-    
     "Practical II - Object Oriented Programming using C++ Practical": {
       "Textbooks": [],
       "Reference Books": [
@@ -516,79 +540,96 @@
       "Online Resources": [
         {
           "name": "W3Schools – C++ Tutorial",
-          "url": "https://www.w3schools.com/cpp/default.asp"
+          "url": "https://www.w3schools.com/cpp/default.asp",
+          "type": "tutorial"
         },
         {
           "name": "MDN Web Docs",
-          "url": "https://developer.mozilla.org/en-US/"
+          "url": "https://developer.mozilla.org/en-US/",
+          "type": "documentation"
         },
         {
           "name": "JSON Documentation – Introducing JSON",
-          "url": "https://www.json.org/json-en.html"
+          "url": "https://www.json.org/json-en.html",
+          "type": "documentation"
         },
         {
           "name": "W3Schools – JavaScript JSON",
-          "url": "https://www.w3schools.com/js/js_json.asp"
+          "url": "https://www.w3schools.com/js/js_json.asp",
+          "type": "tutorial"
         },
         {
           "name": "freeCodeCamp – JSON for Beginners",
-          "url": "https://www.freecodecamp.org/news/what-is-json-a-json-file-example/"
+          "url": "https://www.freecodecamp.org/news/what-is-json-a-json-file-example/",
+          "type": "tutorial"
         },
         {
           "name": "Learn C++",
-          "url": "https://www.learncpp.com/"
+          "url": "https://www.learncpp.com/",
+          "type": "tutorial"
         },
         {
           "name": "C++ Reference",
-          "url": "https://en.cppreference.com/"
+          "url": "https://en.cppreference.com/",
+          "type": "website"
         },
         {
           "name": "Microsoft C++ Documentation",
-          "url": "https://learn.microsoft.com/en-us/cpp/?view=msvc-170"
+          "url": "https://learn.microsoft.com/en-us/cpp/?view=msvc-170",
+          "type": "documentation"
         },
         {
           "name": "Coddy Tech – HTML Course",
-          "url": "https://coddy.tech/landing/html"
+          "url": "https://coddy.tech/landing/html",
+          "type": "course"
         },
         {
           "name": "Coddy Tech – JavaScript Course",
-          "url": "http://coddy.tech/landing/javascript"
+          "url": "http://coddy.tech/landing/javascript",
+          "type": "course"
         },
         {
           "name": "Codecademy – HTML and CSS",
-          "url": "https://www.codecademy.com/catalog/language/html-css"
+          "url": "https://www.codecademy.com/catalog/language/html-css",
+          "type": "course"
         },
         {
           "name": "Coddy Tech – C++ Online Course",
-          "url": "https://coddy.tech/landing/cpp"
+          "url": "https://coddy.tech/landing/cpp",
+          "type": "course"
         },
         {
           "name": "Programming with Mosh – HTML for Beginners",
-          "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+          "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+          "type": "video"
         },
         {
           "name": "Programming with Mosh – JavaScript for Beginners",
-          "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+          "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+          "type": "video"
         },
         {
           "name": "Programming with Mosh – The Complete Frontend Development Roadmap",
-          "url": "https://www.youtube.com/watch?v=Tef1e9FiSR0"
+          "url": "https://www.youtube.com/watch?v=Tef1e9FiSR0",
+          "type": "video"
         },
         {
           "name": "Bro Code – Learn CSS in 1 Hour",
-          "url": "https://www.youtube.com/watch?v=wRNinF7YQqQ"
+          "url": "https://www.youtube.com/watch?v=wRNinF7YQqQ",
+          "type": "video"
         },
         {
           "name": "Bro Code – HTML and CSS Full Course",
-          "url": "https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+          "url": "https://www.youtube.com/watch?v=HGTJBPNC-Gw",
+          "type": "video"
         },
         {
           "name": "Apna College – HTML, CSS, JavaScript, Projects, Git and GitHub",
-          "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i"
+          "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i",
+          "type": "video"
         }
       ]
     },
-    
     "VSC: Assembly Language Programming - 02": {
       "Textbooks": [
         {
@@ -606,11 +647,11 @@
       "Online Resources": [
         {
           "name": "TutorialsPoint – 8085 Microprocessor Tutorial",
-          "url": "https://www.tutorialspoint.com/microprocessor/index.htm"
+          "url": "https://www.tutorialspoint.com/microprocessor/index.htm",
+          "type": "tutorial"
         }
       ]
     },
-    
     "Web Programming": {
       "Textbooks": [],
       "Reference Books": [],
@@ -618,19 +659,21 @@
       "Online Resources": [
         {
           "name": "PHP Documentation",
-          "url": "https://www.php.net/docs.php"
+          "url": "https://www.php.net/docs.php",
+          "type": "documentation"
         },
         {
           "name": "MDN Web Docs",
-          "url": "https://developer.mozilla.org/en-US/"
+          "url": "https://developer.mozilla.org/en-US/",
+          "type": "documentation"
         },
         {
           "name": "GeeksforGeeks – Web Development Technologies",
-          "url": "https://www.geeksforgeeks.org/web-tech/web-technology/"
+          "url": "https://www.geeksforgeeks.org/web-tech/web-technology/",
+          "type": "website"
         }
       ]
     },
-    
     "PL/SQL Practical": {
       "Practical Resources": [
         {
@@ -645,15 +688,16 @@
       "Online Resources": [
         {
           "name": "NIC IT Academy – Master Oracle PL/SQL in 30 Days or Less",
-          "url": "https://www.youtube.com/watch?v=9ic3KEH4Ah4"
+          "url": "https://www.youtube.com/watch?v=9ic3KEH4Ah4",
+          "type": "video"
         },
         {
           "name": "uzit – PL/SQL Tutorial for Beginners",
-          "url": "https://www.youtube.com/watch?v=iY0akm4ejAY"
+          "url": "https://www.youtube.com/watch?v=iY0akm4ejAY",
+          "type": "video"
         }
       ]
     },
-    
     "Environmental Management & Sustainable Development - II": {
       "Reference Books": [
         {
@@ -664,15 +708,16 @@
       "Online Resources": [
         {
           "name": "Central Pollution Control Board – Pollution Standards",
-          "url": "https://cpcb.nic.in/standards/"
+          "url": "https://cpcb.nic.in/standards/",
+          "type": "website"
         },
         {
           "name": "India Code – Digital Repository of Central and State Acts",
-          "url": "https://www.indiacode.nic.in/"
+          "url": "https://www.indiacode.nic.in/",
+          "type": "website"
         }
       ]
     },
-    
     "Marketing Mix - II": {
       "Textbooks": [],
       "Reference Books": [
@@ -682,7 +727,6 @@
         }
       ]
     },
-    
     "Principles and Practices of Management": {
       "Textbooks": [
         {
@@ -696,50 +740,57 @@
       "Online Resources": [
         {
           "name": "Learn Python",
-          "url": "http://learnpython.org/"
+          "url": "http://learnpython.org/",
+          "type": "tutorial"
         },
         {
           "name": "Coddy Tech – Learn Python",
-          "url": "https://coddy.tech/landing/python"
+          "url": "https://coddy.tech/landing/python",
+          "type": "tutorial"
         },
         {
           "name": "Codecademy – Python Courses",
-          "url": "https://www.codecademy.com/catalog/language/python"
+          "url": "https://www.codecademy.com/catalog/language/python",
+          "type": "course"
         },
         {
           "name": "Mosh Hamdani – Python Full Course for Beginners",
-          "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ"
+          "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+          "type": "video"
         },
         {
           "name": "Bro Code – Python Full Course for Free",
-          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0"
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0",
+          "type": "video"
         },
         {
           "name": "freeCodeCamp – Learn Python Full Course for Beginners",
-          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "type": "video"
         }
       ]
     },
-
     "Data Structures": {
       "Textbooks": [],
       "Notes": [],
       "Online Resources": [
         {
           "name": "Bro Code – Data Structures and Algorithms Full Course",
-          "url": "https://www.youtube.com/watch?v=CBYHwZcbD-s"
+          "url": "https://www.youtube.com/watch?v=CBYHwZcbD-s",
+          "type": "video"
         },
         {
           "name": "MIT OpenCourseWare – Introduction to Algorithms",
-          "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/"
+          "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+          "type": "course"
         },
         {
           "name": "MIT OpenCourseWare – Design and Analysis of Algorithms",
-          "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/"
+          "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/",
+          "type": "course"
         }
       ]
     },
-
     "Operating System": {
       "Reference Books": [
         {
@@ -750,61 +801,71 @@
       "Online Resources": [
         {
           "name": "Operating Systems: Three Easy Pieces",
-          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/"
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+          "type": "website"
         },
         {
           "name": "University of Wisconsin – CS 537: Introduction to Operating Systems",
-          "url": "https://pages.cs.wisc.edu/~shivaram/cs537-fa24/"
+          "url": "https://pages.cs.wisc.edu/~shivaram/cs537-fa24/",
+          "type": "website"
         },
         {
           "name": "freeCodeCamp – Operating Systems Course for Beginners",
-          "url": "https://www.youtube.com/watch?v=yK1uBHPdp30"
+          "url": "https://www.youtube.com/watch?v=yK1uBHPdp30",
+          "type": "video"
         }
       ]
     },
-
     "Major Practical 3 - Python & Data Structures": {
       "Textbooks": [],
       "Online Resources": [
         {
           "name": "Learn Python",
-          "url": "http://learnpython.org/"
+          "url": "http://learnpython.org/",
+          "type": "tutorial"
         },
         {
           "name": "Coddy Tech – Learn Python",
-          "url": "https://coddy.tech/landing/python"
+          "url": "https://coddy.tech/landing/python",
+          "type": "tutorial"
         },
         {
           "name": "Codecademy – Python Courses",
-          "url": "https://www.codecademy.com/catalog/language/python"
+          "url": "https://www.codecademy.com/catalog/language/python",
+          "type": "course"
         },
         {
           "name": "Mosh Hamdani – Python Full Course for Beginners",
-          "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ"
+          "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+          "type": "video"
         },
         {
           "name": "Bro Code – Python Full Course for Free",
-          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0"
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0",
+          "type": "video"
         },
         {
           "name": "freeCodeCamp – Learn Python Full Course for Beginners",
-          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+          "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "type": "video"
         },
         {
           "name": "Bro Code – Data Structures and Algorithms Full Course",
-          "url": "https://www.youtube.com/watch?v=CBYHwZcbD-s"
+          "url": "https://www.youtube.com/watch?v=CBYHwZcbD-s",
+          "type": "video"
         },
         {
           "name": "MIT OpenCourseWare – Introduction to Algorithms",
-          "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/"
+          "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+          "type": "course"
         },
         {
           "name": "MIT OpenCourseWare – Design and Analysis of Algorithms",
-          "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/"
+          "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/",
+          "type": "course"
         }
       ]
     },
-
     "Applied Mathematics": {
       "Reference Books": [
         {
@@ -818,7 +879,6 @@
       ],
       "Notes": []
     },
-
     "Operations Research - I": {
       "Reference Books": [
         {
@@ -835,28 +895,30 @@
         }
       ]
     },
-
     "Fintech Start up": {
       "Online Resources": [
         {
           "name": "INSART – Learn Fintech in One Video: Fintech 101",
-          "url": "https://www.youtube.com/watch?v=dIAhmN8dfUU"
+          "url": "https://www.youtube.com/watch?v=dIAhmN8dfUU",
+          "type": "video"
         },
         {
           "name": "answersQ – Best Fintech Course on Coursera: Learn Fintech in 30 Days",
-          "url": "https://www.youtube.com/watch?v=HjE4OoA2Vr8"
+          "url": "https://www.youtube.com/watch?v=HjE4OoA2Vr8",
+          "type": "video"
         },
         {
           "name": "Sukhjinder Singh – How to Break Into Fintech in India",
-          "url": "https://www.youtube.com/watch?v=TGOiq53L2Ko"
+          "url": "https://www.youtube.com/watch?v=TGOiq53L2Ko",
+          "type": "video"
         },
         {
           "name": "Coursera – Fintech Startups in Emerging Markets Specialization",
-          "url": "https://www.coursera.org/specializations/fintech-startups-emerging-markets"
+          "url": "https://www.coursera.org/specializations/fintech-startups-emerging-markets",
+          "type": "course"
         }
       ]
     },
-
     "Data Analytics Tools": {
       "Reference Books": [
         {
@@ -867,28 +929,31 @@
       "Online Resources": [
         {
           "name": "Learn Skills Daily – Data Analysis with Python Full Course",
-          "url": "https://www.youtube.com/watch?v=bLDbzcHwxM4"
+          "url": "https://www.youtube.com/watch?v=bLDbzcHwxM4",
+          "type": "video"
         },
         {
           "name": "Luke Barousse – Python for Data Analytics Full Course for Beginners",
-          "url": "https://www.youtube.com/watch?v=wUSDVGivd-8"
+          "url": "https://www.youtube.com/watch?v=wUSDVGivd-8",
+          "type": "video"
         }
       ]
     },
-
     "Introduction to Big Data": {
       "Online Resources": [
         {
           "name": "Introduction to Big Data – Lovely Professional University",
-          "url": "https://www.lpude.in/SLMs/Master%20of%20Computer%20Applications/Sem_2/DECAP456_INTRODUCTION_TO_BIG_DATA.pdf"
+          "url": "https://www.lpude.in/SLMs/Master%20of%20Computer%20Applications/Sem_2/DECAP456_INTRODUCTION_TO_BIG_DATA.pdf",
+          "type": "website"
         },
         {
           "name": "Coursera – Introduction to Big Data",
-          "url": "https://www.coursera.org/learn/big-data-introduction"
+          "url": "https://www.coursera.org/learn/big-data-introduction",
+          "type": "course"
         }
       ]
     },
-        "Core Java": {
+    "Core Java": {
       "Textbooks": [],
       "Reference Books": [
         {
@@ -909,15 +974,16 @@
       "Online Resources": [
         {
           "name": "Bro Code – Java Full Course for Free",
-          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ"
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ",
+          "type": "video"
         },
         {
           "name": "Coddy Tech – Learn Java",
-          "url": "https://coddy.tech/landing/java"
+          "url": "https://coddy.tech/landing/java",
+          "type": "tutorial"
         }
       ]
     },
-
     "Software Engineering": {
       "Textbooks": [],
       "Reference Books": [],
@@ -926,15 +992,16 @@
       "Online Resources": [
         {
           "name": "The Official Scrum Guide",
-          "url": "https://scrumguides.org/"
+          "url": "https://scrumguides.org/",
+          "type": "tutorial"
         },
         {
           "name": "MIT OpenCourseWare – Software Engineering Concepts",
-          "url": "https://ocw.mit.edu/courses/16-355j-software-engineering-concepts-fall-2005/"
+          "url": "https://ocw.mit.edu/courses/16-355j-software-engineering-concepts-fall-2005/",
+          "type": "course"
         }
       ]
     },
-
     "Computer Networks": {
       "Textbooks": [],
       "Reference Books": [
@@ -947,7 +1014,6 @@
       "Practical Resources": [],
       "Online Resources": []
     },
-
     "Major Practical 4 - Core Java & Computer Networks": {
       "Textbooks": [],
       "Reference Books": [
@@ -973,19 +1039,21 @@
       "Online Resources": [
         {
           "name": "Breezy Codes – Basic Cisco Packet Tracer Tutorials",
-          "url": "https://www.youtube.com/@Breezy-Codes"
+          "url": "https://www.youtube.com/@Breezy-Codes",
+          "type": "video"
         },
         {
           "name": "Bro Code – Java Full Course for Free",
-          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ"
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ",
+          "type": "video"
         },
         {
           "name": "Coddy Tech – Learn Java",
-          "url": "https://coddy.tech/landing/java"
+          "url": "https://coddy.tech/landing/java",
+          "type": "tutorial"
         }
       ]
     },
-
     "Computer Graphics": {
       "Textbooks": [
         {
@@ -999,15 +1067,16 @@
       "Online Resources": [
         {
           "name": "Programming for Lovers – An Introduction to Graphics in Python",
-          "url": "https://programmingforlovers.com/chapter-3-building-a-self-replicating-cellular-automaton-with-top-down-programming/chapter-3-python-code-alongs/introduction-to-graphics/"
+          "url": "https://programmingforlovers.com/chapter-3-building-a-self-replicating-cellular-automaton-with-top-down-programming/chapter-3-python-code-alongs/introduction-to-graphics/",
+          "type": "website"
         },
         {
           "name": "Johan Godinho – Python Graphics Using Tkinter for Beginners",
-          "url": "https://www.youtube.com/playlist?list=PLIbZb2AYMPrX6LPztAIJist8ZnYS2I6jP"
+          "url": "https://www.youtube.com/playlist?list=PLIbZb2AYMPrX6LPztAIJist8ZnYS2I6jP",
+          "type": "video"
         }
       ]
     },
-
     "Mobile Programming": {
       "Textbooks": [],
       "Reference Books": [],
@@ -1016,27 +1085,31 @@
       "Online Resources": [
         {
           "name": "Flutter – Official Documentation",
-          "url": "https://docs.flutter.dev/"
+          "url": "https://docs.flutter.dev/",
+          "type": "documentation"
         },
         {
           "name": "Flutter – Learning Path",
-          "url": "https://docs.flutter.dev/learn"
+          "url": "https://docs.flutter.dev/learn",
+          "type": "documentation"
         },
         {
           "name": "Flutter – Codelabs and Learning Resources",
-          "url": "https://docs.flutter.dev/reference/learning-resources"
+          "url": "https://docs.flutter.dev/reference/learning-resources",
+          "type": "documentation"
         },
         {
           "name": "Flutter Mapp – The Ultimate Flutter Tutorial for Beginners (2025)",
-          "url": "https://www.youtube.com/watch?v=3kaGC_DrUnw"
+          "url": "https://www.youtube.com/watch?v=3kaGC_DrUnw",
+          "type": "video"
         },
         {
           "name": "freeCodeCamp – Flutter Course for Beginners: 37-Hour Cross Platform App Development Tutorial",
-          "url": "https://www.youtube.com/watch?v=VPvVD8t02U8"
+          "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
+          "type": "video"
         }
       ]
     },
-
     "Operations Research - II": {
       "Textbooks": [],
       "Reference Books": [
@@ -1049,7 +1122,6 @@
       "Practical Resources": [],
       "Online Resources": []
     },
-
     "Practical based on Operations Research - II": {
       "Textbooks": [],
       "Reference Books": [],
@@ -1057,7 +1129,6 @@
       "Practical Resources": [],
       "Online Resources": []
     },
-
     "Introduction to Artificial Intelligence": {
       "Textbooks": [],
       "Reference Books": [
@@ -1070,7 +1141,6 @@
       "Practical Resources": [],
       "Online Resources": []
     },
-
     "Introduction to IT Service Management": {
       "Textbooks": [],
       "Reference Books": [
@@ -1087,7 +1157,6 @@
       "Practical Resources": [],
       "Online Resources": []
     },
-
     "Introduction to Communication Skills in English II": {
       "Reference Books": [
         {
@@ -1098,127 +1167,156 @@
       "Online Resources": [
         {
           "name": "A Rendezvous with Simi Garewal – Ratan Tata",
-          "url": "https://www.youtube.com/watch?v=ozetTgOHu78&t=510s"
+          "url": "https://www.youtube.com/watch?v=ozetTgOHu78&t=510s",
+          "type": "video"
         },
         {
           "name": "A Rendezvous with Simi Garewal – Kiran Bedi",
-          "url": "https://youtu.be/vX2NyKvEAXQ"
+          "url": "https://youtu.be/vX2NyKvEAXQ",
+          "type": "video"
         },
         {
           "name": "In Conversation: Rajiv Mehrotra with J. R. D. Tata",
-          "url": "https://youtu.be/68otfg601HI"
+          "url": "https://youtu.be/68otfg601HI",
+          "type": "video"
         },
         {
           "name": "The Tharoor Guide to Indian English – Shashi Tharoor",
-          "url": "https://youtu.be/NsyI9LIXbFM"
+          "url": "https://youtu.be/NsyI9LIXbFM",
+          "type": "video"
         },
         {
           "name": "Dr. A. P. J. Abdul Kalam – Discovery, Invention and Innovation",
-          "url": "https://youtu.be/9CKCfiX3uO0"
+          "url": "https://youtu.be/9CKCfiX3uO0",
+          "type": "video"
         },
         {
           "name": "Malala Yousafzai – Nobel Peace Prize Speech on Education (2014)",
-          "url": "https://youtu.be/c2DHzlkUI6s"
+          "url": "https://youtu.be/c2DHzlkUI6s",
+          "type": "video"
         },
         {
           "name": "Kailash Satyarthi – Nobel Peace Prize Speech (2014)",
-          "url": "https://youtu.be/wt0LSCEuc_M"
+          "url": "https://youtu.be/wt0LSCEuc_M",
+          "type": "video"
         },
         {
           "name": "Speech by Mr. Ratan Tata",
-          "url": "https://youtu.be/m7-tKX7aZXM"
+          "url": "https://youtu.be/m7-tKX7aZXM",
+          "type": "video"
         },
         {
           "name": "I Have a Dream – Martin Luther King Jr.",
-          "url": "https://www.youtube.com/watch?v=vP4iY1TtS3s"
+          "url": "https://www.youtube.com/watch?v=vP4iY1TtS3s",
+          "type": "video"
         },
         {
           "name": "Emma Watson – Speech on Gender Equality",
-          "url": "https://youtu.be/nIwU-9ZTTJc"
+          "url": "https://youtu.be/nIwU-9ZTTJc",
+          "type": "video"
         },
         {
           "name": "Could Humans Live in Underwater Cities?",
-          "url": "https://youtu.be/GUGtU7Ii1yk"
+          "url": "https://youtu.be/GUGtU7Ii1yk",
+          "type": "video"
         },
         {
           "name": "A Conversation About Household Appliances",
-          "url": "https://youtu.be/rAPl0fSborU"
+          "url": "https://youtu.be/rAPl0fSborU",
+          "type": "video"
         },
         {
           "name": "Why Do We Dream? – Psychology Video",
-          "url": "https://youtu.be/2W85Dwxx218"
+          "url": "https://youtu.be/2W85Dwxx218",
+          "type": "video"
         },
         {
           "name": "Solar System 101",
-          "url": "https://youtu.be/libKVRa01L8"
+          "url": "https://youtu.be/libKVRa01L8",
+          "type": "video"
         },
         {
           "name": "How Apocalypses Paved the Way for Humans",
-          "url": "https://youtu.be/libKVRa01L8"
+          "url": "https://youtu.be/libKVRa01L8",
+          "type": "video"
         },
         {
           "name": "Why Bats Aren't as Scary as You Think",
-          "url": "https://youtu.be/D6e_qh3YRPs"
+          "url": "https://youtu.be/D6e_qh3YRPs",
+          "type": "video"
         },
         {
           "name": "What Is a Social Media Influencer?",
-          "url": "https://youtu.be/39A3og7enz8"
+          "url": "https://youtu.be/39A3og7enz8",
+          "type": "video"
         },
         {
           "name": "The Secrets of Learning a New Language – TED Talk",
-          "url": "https://youtu.be/o_XVt5rdpFY"
+          "url": "https://youtu.be/o_XVt5rdpFY",
+          "type": "video"
         },
         {
           "name": "If Cinderella Were a Guy – Expressing Opinions",
-          "url": "https://youtu.be/p4OyCNctKXg"
+          "url": "https://youtu.be/p4OyCNctKXg",
+          "type": "video"
         },
         {
           "name": "Partly Cloudy – Telling Stories Without Words",
-          "url": "https://youtu.be/ix13P9NqBjo"
+          "url": "https://youtu.be/ix13P9NqBjo",
+          "type": "video"
         },
         {
           "name": "Tree of Unity – Telling Stories Without Words",
-          "url": "https://youtu.be/sAo41Gyl6hY"
+          "url": "https://youtu.be/sAo41Gyl6hY",
+          "type": "video"
         },
         {
           "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 1)",
-          "url": "https://youtu.be/oxf60BlR2Q4"
+          "url": "https://youtu.be/oxf60BlR2Q4",
+          "type": "video"
         },
         {
           "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 2)",
-          "url": "https://youtu.be/ISX7rUOJOms"
+          "url": "https://youtu.be/ISX7rUOJOms",
+          "type": "video"
         },
         {
           "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 3)",
-          "url": "https://youtu.be/rrC_s0XPXKI"
+          "url": "https://youtu.be/rrC_s0XPXKI",
+          "type": "video"
         },
         {
           "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 4)",
-          "url": "https://youtu.be/FUML3q1ncF0"
+          "url": "https://youtu.be/FUML3q1ncF0",
+          "type": "video"
         },
         {
           "name": "Bonding over the Radio – Ruskin Bond Storytelling Series (Episode 5)",
-          "url": "https://youtu.be/3by_ninqRzg"
+          "url": "https://youtu.be/3by_ninqRzg",
+          "type": "video"
         },
         {
           "name": "Where Did English Come From?",
-          "url": "https://youtu.be/YEaSxhcns7Y"
+          "url": "https://youtu.be/YEaSxhcns7Y",
+          "type": "video"
         },
         {
           "name": "The Science of Skin Colour",
-          "url": "https://youtu.be/_r4c2NT4naQ"
+          "url": "https://youtu.be/_r4c2NT4naQ",
+          "type": "video"
         },
         {
           "name": "The Science of Persuasion",
-          "url": "https://youtu.be/cFdCzN7RYbw"
+          "url": "https://youtu.be/cFdCzN7RYbw",
+          "type": "video"
         },
         {
           "name": "The Happy Prince – Oscar Wilde, Animated Short Film (1974)",
-          "url": "https://www.youtube.com/watch?v=q3RZh1yaqxM"
+          "url": "https://www.youtube.com/watch?v=q3RZh1yaqxM",
+          "type": "video"
         }
       ]
     },
-    
     ".NET Core and Progressive Application": {
       "Textbooks": [
         {
@@ -1235,35 +1333,41 @@
       "Online Resources": [
         {
           "name": "Microsoft Learn – Learn C#",
-          "url": "https://dotnet.microsoft.com/en-us/learn/csharp"
+          "url": "https://dotnet.microsoft.com/en-us/learn/csharp",
+          "type": "tutorial"
         },
         {
           "name": "Bro Code – C# Full Course",
-          "url": "https://www.youtube.com/watch?v=wxznTygnRfQ"
+          "url": "https://www.youtube.com/watch?v=wxznTygnRfQ",
+          "type": "video"
         },
         {
           "name": "Programming with Mosh – C# Tutorial for Beginners",
-          "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY"
+          "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+          "type": "video"
         },
         {
           "name": "Programming with Mosh – C# .NET Tutorials",
-          "url": "https://www.youtube.com/playlist?list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
+          "url": "https://www.youtube.com/playlist?list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef",
+          "type": "video"
         },
         {
           "name": "freeCodeCamp – Learn C# Programming: Full Course with Mini-Projects",
-          "url": "https://www.youtube.com/watch?v=YrtFtdTTfv0"
+          "url": "https://www.youtube.com/watch?v=YrtFtdTTfv0",
+          "type": "video"
         },
         {
           "name": "freeCodeCamp – ASP.NET Core Crash Course",
-          "url": "https://www.youtube.com/watch?v=BfEjDD8mWYg"
+          "url": "https://www.youtube.com/watch?v=BfEjDD8mWYg",
+          "type": "video"
         },
         {
           "name": "Coddy Tech – Learn C#",
-          "url": "http://coddy.tech/landing/csharp"
+          "url": "http://coddy.tech/landing/csharp",
+          "type": "tutorial"
         }
       ]
     },
-
     ".NET Core and Progressive Applications Practical": {
       "Reference Books": [
         {
@@ -1277,56 +1381,63 @@
           "url": "https://www.youtube.com/playlist?list=PLD8C8uX1ZoMU"
         }
       ],
-      
       "Online Resources": [
         {
           "name": "Microsoft Learn – Learn C#",
-          "url": "https://dotnet.microsoft.com/en-us/learn/csharp"
+          "url": "https://dotnet.microsoft.com/en-us/learn/csharp",
+          "type": "tutorial"
         },
         {
           "name": "Bro Code – C# Full Course",
-          "url": "https://www.youtube.com/watch?v=wxznTygnRfQ"
+          "url": "https://www.youtube.com/watch?v=wxznTygnRfQ",
+          "type": "video"
         },
         {
           "name": "Programming with Mosh – C# Tutorial for Beginners",
-          "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY"
+          "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+          "type": "video"
         },
         {
           "name": "Programming with Mosh – C# .NET Tutorials",
-          "url": "https://www.youtube.com/playlist?list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
+          "url": "https://www.youtube.com/playlist?list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef",
+          "type": "video"
         },
         {
           "name": "freeCodeCamp – Learn C# Programming: Full Course with Mini-Projects",
-          "url": "https://www.youtube.com/watch?v=YrtFtdTTfv0"
+          "url": "https://www.youtube.com/watch?v=YrtFtdTTfv0",
+          "type": "video"
         },
         {
           "name": "freeCodeCamp – ASP.NET Core Crash Course",
-          "url": "https://www.youtube.com/watch?v=BfEjDD8mWYg"
+          "url": "https://www.youtube.com/watch?v=BfEjDD8mWYg",
+          "type": "video"
         },
         {
           "name": "Coddy Tech – Learn C#",
-          "url": "http://coddy.tech/landing/csharp"
+          "url": "http://coddy.tech/landing/csharp",
+          "type": "tutorial"
         }
       ]
     },
-    
     "Artificial Intelligence": {
       "Online Resources": [
         {
           "name": "Foundations of Computational Agents – David L. Poole and Alan K. Mackworth (3rd Edition Slides)",
-          "url": "https://artint.info/3e/slides/index.html"
+          "url": "https://artint.info/3e/slides/index.html",
+          "type": "website"
         },
         {
           "name": "Gate Smashers – Artificial Intelligence Complete Playlist",
-          "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHGhOHV-nwb0HR5US5GFKFI"
+          "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHGhOHV-nwb0HR5US5GFKFI",
+          "type": "video"
         },
         {
           "name": "Google – Machine Learning Crash Course",
-          "url": "https://developers.google.com/machine-learning/crash-course"
+          "url": "https://developers.google.com/machine-learning/crash-course",
+          "type": "course"
         }
       ]
     },
-    
     "Artificial Intelligence Application Development and Jira": {
       "Reference Books": [
         {
@@ -1337,44 +1448,50 @@
       "Online Resources": [
         {
           "name": "Atlassian – Jira Guides",
-          "url": "https://www.atlassian.com/software/jira/guides/getting-started/introduction"
+          "url": "https://www.atlassian.com/software/jira/guides/getting-started/introduction",
+          "type": "tutorial"
         },
         {
           "name": "The Official Scrum Guide",
-          "url": "https://scrumguides.org/"
+          "url": "https://scrumguides.org/",
+          "type": "tutorial"
         },
         {
           "name": "Atlassian – Jira Documentation",
-          "url": "https://confluence.atlassian.com/jira"
+          "url": "https://confluence.atlassian.com/jira",
+          "type": "documentation"
         },
         {
           "name": "Atlassian – Jira Software Cloud Support",
-          "url": "https://support.atlassian.com/jira-software-cloud/"
+          "url": "https://support.atlassian.com/jira-software-cloud/",
+          "type": "website"
         },
         {
           "name": "Atlassian – Jira Guides",
-          "url": "https://www.atlassian.com/software/jira/guides"
+          "url": "https://www.atlassian.com/software/jira/guides",
+          "type": "tutorial"
         },
         {
           "name": "Jira Software Server 7.1 – User Documentation",
-          "url": "https://product-downloads.atlassian.com/software/jira/downloads/documentation/JIRASOFTWARESERVER071-290216.pdf"
+          "url": "https://product-downloads.atlassian.com/software/jira/downloads/documentation/JIRASOFTWARESERVER071-290216.pdf",
+          "type": "documentation"
         },
         {
           "name": "Jira Project Management – Complete Beginners Guide",
-          "url": "https://www.youtube.com/playlist?list=PLhW3qG5bs-L-uhDuJ7_hB7RIp-jSn28e8"
+          "url": "https://www.youtube.com/playlist?list=PLhW3qG5bs-L-uhDuJ7_hB7RIp-jSn28e8",
+          "type": "video"
         }
       ]
     },
-    
     "Indian Knowledge Systems in Information Technology": {
       "Online Resources": [
         {
           "name": "Indian Knowledge System and Artificial Intelligence: Towards Ethical, Sustainable, and Human-Centric Innovation",
-          "url": "https://icert.org.in/wp-content/uploads/2026/03/232.-Indian-Knowledge-System-and-Artificial-Intelligence_towards-Ethical-Sustainable-and-Human-Centric-Innovation.pdf"
+          "url": "https://icert.org.in/wp-content/uploads/2026/03/232.-Indian-Knowledge-System-and-Artificial-Intelligence_towards-Ethical-Sustainable-and-Human-Centric-Innovation.pdf",
+          "type": "website"
         }
       ]
     },
-    
     "Enterprise Java Practical": {
       "Practical Resources": [
         {
@@ -1389,27 +1506,31 @@
       "Online Resources": [
         {
           "name": "Jakarta EE Tutorial",
-          "url": "https://jakarta.ee/learn/docs/jakartaee-tutorial/current/index.html"
+          "url": "https://jakarta.ee/learn/docs/jakartaee-tutorial/current/index.html",
+          "type": "documentation"
         },
         {
           "name": "Jakarta EE Learning Hub",
-          "url": "https://jakarta.ee/learn"
+          "url": "https://jakarta.ee/learn",
+          "type": "website"
         },
         {
           "name": "Jakarta EE Starter Guides",
-          "url": "https://jakarta.ee/learn/starter-guides/"
+          "url": "https://jakarta.ee/learn/starter-guides/",
+          "type": "tutorial"
         },
         {
           "name": "Spring Boot Documentation",
-          "url": "https://spring.io/projects/spring-boot"
+          "url": "https://spring.io/projects/spring-boot",
+          "type": "documentation"
         },
         {
           "name": "Hibernate ORM Documentation",
-          "url": "https://hibernate.org/orm/documentation"
+          "url": "https://hibernate.org/orm/documentation",
+          "type": "documentation"
         }
       ]
     },
-    
     "Android Practical": {
       "Textbooks": [
         {
@@ -1434,11 +1555,11 @@
       "Online Resources": [
         {
           "name": "Kotlin Documentation",
-          "url": "https://kotlinlang.org/docs/home.html"
+          "url": "https://kotlinlang.org/docs/home.html",
+          "type": "documentation"
         }
       ]
     },
-    
     "Full Stack Development MERN Practical": {
       "Practical Resources": [
         {
@@ -1461,19 +1582,21 @@
       "Online Resources": [
         {
           "name": "Node.js – Learn",
-          "url": "https://nodejs.org/learn"
+          "url": "https://nodejs.org/learn",
+          "type": "website"
         },
         {
           "name": "React – Learn",
-          "url": "https://react.dev/learn"
+          "url": "https://react.dev/learn",
+          "type": "website"
         },
         {
           "name": "Express.js Documentation",
-          "url": "https://expressjs.com"
+          "url": "https://expressjs.com",
+          "type": "documentation"
         }
       ]
     },
-    
     "Linux Administration Practical": {
       "Practical Resources": [
         {
@@ -1484,11 +1607,11 @@
       "Online Resources": [
         {
           "name": "Coddy Tech – Learn Linux and the Command Line",
-          "url": "https://coddy.tech/landing/terminal"
+          "url": "https://coddy.tech/landing/terminal",
+          "type": "tutorial"
         }
       ]
     },
-    
     "Internet of Things Practical": {
       "Reference Books": [
         {
@@ -1507,19 +1630,21 @@
       "Online Resources": [
         {
           "name": "Raspberry Pi Projects",
-          "url": "https://projects.raspberrypi.org/en/"
+          "url": "https://projects.raspberrypi.org/en/",
+          "type": "website"
         },
         {
           "name": "Raspberry Pi Documentation",
-          "url": "https://www.raspberrypi.com/documentation/"
+          "url": "https://www.raspberrypi.com/documentation/",
+          "type": "documentation"
         },
         {
           "name": "Learn Raspberry Pi Programming with Python",
-          "url": "https://www.academia.edu/27845434/Learn_Raspberry_Pi_Programming_with_Python_Learn_Raspberry_Pi_Programming_with_Python"
+          "url": "https://www.academia.edu/27845434/Learn_Raspberry_Pi_Programming_with_Python_Learn_Raspberry_Pi_Programming_with_Python",
+          "type": "tutorial"
         }
       ]
     },
-    
     "Project Management": {
       "Textbooks": [
         {
@@ -1544,19 +1669,21 @@
       "Online Resources": [
         {
           "name": "OpenLearn – Project Management: The Start of the Project Journey",
-          "url": "https://www.open.edu/openlearn/money-business/project-management-the-start-the-project-journey/content-section-0"
+          "url": "https://www.open.edu/openlearn/money-business/project-management-the-start-the-project-journey/content-section-0",
+          "type": "tutorial"
         },
         {
           "name": "Project Management Institute – Free Online Courses",
-          "url": "https://www.pmi.org/learning/free-online-courses"
+          "url": "https://www.pmi.org/learning/free-online-courses",
+          "type": "course"
         },
         {
           "name": "Atlassian – Project Management Guide",
-          "url": "https://www.atlassian.com/work-management/project-management"
+          "url": "https://www.atlassian.com/work-management/project-management",
+          "type": "tutorial"
         }
       ]
     },
-    
     "Computer Security": {
       "Practical Resources": [
         {
@@ -1575,19 +1702,21 @@
       "Online Resources": [
         {
           "name": "NIST – Cybersecurity Framework 2.0",
-          "url": "https://www.nist.gov/cyberframework"
+          "url": "https://www.nist.gov/cyberframework",
+          "type": "website"
         },
         {
           "name": "Professor Messer – CompTIA Security+",
-          "url": "https://www.youtube.com/@professormesser"
+          "url": "https://www.youtube.com/@professormesser",
+          "type": "video"
         },
         {
           "name": "Computerphile",
-          "url": "https://www.youtube.com/@Computerphile"
+          "url": "https://www.youtube.com/@Computerphile",
+          "type": "video"
         }
       ]
     },
-    
     "Data Analytics and Business Intelligence": {
       "Textbooks": [
         {
@@ -1620,19 +1749,21 @@
       "Online Resources": [
         {
           "name": "Google Analytics – Skillshop",
-          "url": "https://skillshop.withgoogle.com/"
+          "url": "https://skillshop.withgoogle.com/",
+          "type": "website"
         },
         {
           "name": "Alex The Analyst – Data Analytics Tutorials",
-          "url": "https://www.youtube.com/@AlexTheAnalyst"
+          "url": "https://www.youtube.com/@AlexTheAnalyst",
+          "type": "video"
         },
         {
           "name": "StatQuest",
-          "url": "https://www.youtube.com/@statquest"
+          "url": "https://www.youtube.com/@statquest",
+          "type": "video"
         }
       ]
     },
-    
     "Data Analytics and Business Intelligence and Computer Security in Practical": {
       "Textbooks": [
         {
@@ -1675,7 +1806,6 @@
         }
       ]
     },
-    
     "Cloud Computing and Testing Tools Practical": {
       "Practical Resources": [
         {
@@ -1698,19 +1828,21 @@
       "Online Resources": [
         {
           "name": "GitHub Documentation",
-          "url": "https://docs.github.com/en"
+          "url": "https://docs.github.com/en",
+          "type": "documentation"
         },
         {
           "name": "Cloud Computing – Neso Academy YouTube Search",
-          "url": "https://www.youtube.com/results?search_query=Neso+Academy+Cloud+Computing"
+          "url": "https://www.youtube.com/results?search_query=Neso+Academy+Cloud+Computing",
+          "type": "video"
         },
         {
           "name": "CloudSim Tutorials – YouTube Search",
-          "url": "https://www.youtube.com/results?search_query=CloudSim+simulation+tutorial"
+          "url": "https://www.youtube.com/results?search_query=CloudSim+simulation+tutorial",
+          "type": "video"
         }
       ]
     },
-    
     "Geographical Information System Practical": {
       "Practical Resources": [
         {
@@ -1733,19 +1865,21 @@
       "Online Resources": [
         {
           "name": "Official QGIS Documentation",
-          "url": "https://docs.qgis.org/"
+          "url": "https://docs.qgis.org/",
+          "type": "documentation"
         },
         {
           "name": "QGIS Official YouTube Channel",
-          "url": "https://www.youtube.com/@QGIS"
+          "url": "https://www.youtube.com/@QGIS",
+          "type": "video"
         },
         {
           "name": "QGIS Beginner Tutorials – YouTube Search",
-          "url": "https://www.youtube.com/results?search_query=QGIS+beginner+tutorial+complete+course"
+          "url": "https://www.youtube.com/results?search_query=QGIS+beginner+tutorial+complete+course",
+          "type": "video"
         }
       ]
     },
-    
     "Enterprise Network Practical": {
       "Practical Resources": [
         {
@@ -1760,31 +1894,36 @@
       "Online Resources": [
         {
           "name": "Cisco CCNP Enterprise – Official Learning Path",
-          "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html"
+          "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html",
+          "type": "website"
         },
         {
           "name": "Cisco Learning Network",
-          "url": "https://learningnetwork.cisco.com/"
+          "url": "https://learningnetwork.cisco.com/",
+          "type": "website"
         },
         {
           "name": "Cisco Networking Documentation",
-          "url": "https://www.cisco.com/c/en/us/support/index.html"
+          "url": "https://www.cisco.com/c/en/us/support/index.html",
+          "type": "documentation"
         },
         {
           "name": "Jeremy's IT Lab",
-          "url": "https://www.youtube.com/@JeremysITLab"
+          "url": "https://www.youtube.com/@JeremysITLab",
+          "type": "video"
         },
         {
           "name": "Practical Networking",
-          "url": "https://www.youtube.com/@PracticalNetworking"
+          "url": "https://www.youtube.com/@PracticalNetworking",
+          "type": "video"
         },
         {
           "name": "David Bombal – Networking Tutorials",
-          "url": "https://www.youtube.com/@davidbombal"
+          "url": "https://www.youtube.com/@davidbombal",
+          "type": "video"
         }
       ]
     },
-    
     "Cyber Law and Digital Policy": {
       "Reference Books": [
         {
@@ -1803,35 +1942,41 @@
       "Online Resources": [
         {
           "name": "Ministry of Electronics and Information Technology (MeitY)",
-          "url": "https://www.meity.gov.in/"
+          "url": "https://www.meity.gov.in/",
+          "type": "website"
         },
         {
           "name": "CERT-In",
-          "url": "https://www.cert-in.org.in/"
+          "url": "https://www.cert-in.org.in/",
+          "type": "website"
         },
         {
           "name": "CERT-In Cybersecurity Directions",
-          "url": "https://www.cert-in.org.in/Directions70B.jsp"
+          "url": "https://www.cert-in.org.in/Directions70B.jsp",
+          "type": "website"
         },
         {
           "name": "India Code – Official Legislation",
-          "url": "https://www.indiacode.nic.in/"
+          "url": "https://www.indiacode.nic.in/",
+          "type": "website"
         },
         {
           "name": "World Intellectual Property Organization – Intellectual Property",
-          "url": "https://www.wipo.int/about-ip/en/"
+          "url": "https://www.wipo.int/about-ip/en/",
+          "type": "website"
         },
         {
           "name": "Indian Cyber Law – YouTube Search",
-          "url": "https://www.youtube.com/results?search_query=Indian+Cyber+Law+Information+Technology+Act+2000+explained"
+          "url": "https://www.youtube.com/results?search_query=Indian+Cyber+Law+Information+Technology+Act+2000+explained",
+          "type": "video"
         },
         {
           "name": "Digital Personal Data Protection Act – YouTube Search",
-          "url": "https://www.youtube.com/results?search_query=DPDP+Act+2023+India+explained"
+          "url": "https://www.youtube.com/results?search_query=DPDP+Act+2023+India+explained",
+          "type": "video"
         }
       ]
     },
-    
     "IT Service Management": {
       "Reference Books": [
         {
@@ -1856,19 +2001,23 @@
       "Online Resources": [
         {
           "name": "Atlassian – IT Service Management Guide",
-          "url": "https://www.atlassian.com/collections/service/guides/it-service-management"
+          "url": "https://www.atlassian.com/collections/service/guides/it-service-management",
+          "type": "tutorial"
         },
         {
           "name": "Atlassian – Introduction to IT Service Management Course",
-          "url": "https://community.atlassian.com/learning/course/it-service-management"
+          "url": "https://community.atlassian.com/learning/course/it-service-management",
+          "type": "course"
         },
         {
           "name": "ITIL 4 Foundation Tutorials – YouTube Search",
-          "url": "https://www.youtube.com/results?search_query=ITIL+4+Foundation+full+course"
+          "url": "https://www.youtube.com/results?search_query=ITIL+4+Foundation+full+course",
+          "type": "video"
         },
         {
           "name": "IT Service Management Explained – YouTube Search",
-          "url": "https://www.youtube.com/results?search_query=IT+Service+Management+ITIL+explained"
+          "url": "https://www.youtube.com/results?search_query=IT+Service+Management+ITIL+explained",
+          "type": "video"
         }
       ]
     }
